@@ -11,7 +11,7 @@ This is a very quick overview of the foundation of the visual Blueprint scriptin
 <!-- TOC -->
 ## Table of Contents
 
-<kbd></kbd> &nbsp;&nbsp; [Hello World](hello-world/README.md#user-content-hello-world) <br>
+<kbd></kbd> &nbsp;&nbsp; [Setting Up Unreal](setting-up/README.md#user-content-setting-up-unreal) <br>
 
 <!-- LICENSE -->
 ## License
