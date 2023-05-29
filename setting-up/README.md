@@ -57,27 +57,30 @@ Now **Unreal's** default level is one that supports large level streaming.  This
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
+Select the **Content Drawer** and right click on **Content** and create two folders, on called `Maps` to hold our level, and the other called `Blueprints` to hold all of our blueprints.
 
-
-![alt_text](images/twoNewFolders.png)
+![create Maps and Blueprints folders](images/twoNewFolders.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-You see an **Atmospheric Fog** which adds some fog to the scene (sometimes used to cut down draw calls for distant objects), a floor to move around on, a light source simulating the sun a **Player Start** object that decides where the player gets spawned when the level starts, a **Sky Sphere** that contains the sky and sun in a round ball that we are inside of, a **SkyLight** that imitates bounced lights so that the shadows are not as sharp and there is detail in parts of then scene that don't have direct sun and finally a **SpereReflector** object that handles reflecting objects in shiny surfaces.  We will just leave all of this alone, and you can hit the **Play** button and notice that nothing happens but you can move around the scene with the arrow buttons.
 
-![alt_text](images/.png)
+Press **File | Save Level** and save this new level the **Maps folder and call it `BPOverview`. Press the <kbd>Save</kbd> button.
+
+![save level as Maps/BPOverview](images/bpOverviewMap.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press **Edit | Project Settings** and select on the left hand side **Maps & Modes**.  Change the **Editor Startup Map** and **Game Default Map** to `BPOverview`.
+
+![change default maps to BPOverview in Project Settings](images/mapsAndModes.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
+You see an **Atmospheric Fog** which adds some fog to the scene (sometimes used to cut down draw calls for distant objects), a floor to move around on, a light source simulating the sun a **Player Start** object that decides where the player gets spawned when the level starts, a **Sky Sphere** that contains the sky and sun in a round ball that we are inside of, a **SkyLight** that imitates bounced lights so that the shadows are not as sharp and there is detail in parts of then scene that don't have direct sun and finally a **SpereReflector** object that handles reflecting objects in shiny surfaces.  We will just leave all of this alone, and you can hit the **Play** button and notice that nothing happens but you can move around the scene with the arrow buttons.
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
