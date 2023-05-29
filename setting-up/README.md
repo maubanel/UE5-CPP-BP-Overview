@@ -37,19 +37,21 @@ This brings up the **Unreal Project Browswer** window.  This allows you to selec
 
 ![alt_text](images/BlankGame.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+You should get to a project screen with an **Untitled** map with some elements already placed for you in the **World Outliner**.  Now even though we selected a blank template, Unreal gives you a whole set of base functionality out of the gate. 
+
+![untitled level](images/untitledLevel.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/NewLevel.png)
 
 ![](../images/line2.png)
 
@@ -60,6 +62,7 @@ This brings up the **Unreal Project Browswer** window.  This allows you to selec
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+You see an **Atmospheric Fog** which adds some fog to the scene (sometimes used to cut down draw calls for distant objects), a floor to move around on, a light source simulating the sun a **Player Start** object that decides where the player gets spawned when the level starts, a **Sky Sphere** that contains the sky and sun in a round ball that we are inside of, a **SkyLight** that imitates bounced lights so that the shadows are not as sharp and there is detail in parts of then scene that don't have direct sun and finally a **SpereReflector** object that handles reflecting objects in shiny surfaces.  We will just leave all of this alone, and you can hit the **Play** button and notice that nothing happens but you can move around the scene with the arrow buttons.
 
 ![alt_text](images/.png)
 
