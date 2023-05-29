@@ -25,9 +25,9 @@ Also, before installing select **Options** and only download platforms you need 
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
+Now once it installs press the **Launch** button on the **5.2.X** version of Unreal.
 
-
-![alt_text](images/.png)
+![launch Unreal](images/.png)
 
 ![](../images/line2.png)
 
