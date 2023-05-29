@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-It is easiest to manage the various versions of Unreal using the **Epic Launcher**.  Thi allows you to install and run multiple versions of the engine.  Go to [Epic Launcher Download](https://store.epicgames.com/en-US/download) and install the Epic Game Launcher.  From here we will manage our game assets and resources. Intall Unreal 5.2 and use a PC preferably.
+It is easiest to manage the various versions of Unreal using the **Epic Launcher**.  Thi allows you to install and run multiple versions of the engine.  Go to [Epic Launcher Download](https://store.epicgames.com/en-US/download) and install the Epic Game Launcher.  From here we will manage our game assets and resources. Intall Unreal 5.2 and use a PC.
 
 <br>
 
@@ -14,17 +14,24 @@ It is easiest to manage the various versions of Unreal using the **Epic Launcher
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+You will need to have an account with Epic games, but don't worry they are free to register for.  Unreal Engine 4 is freely available for students.
+Once you have installed the launcher run the program and select **Unreal Engine** on the side menu and **Library** on the top menu. Press the **+** button to add a new build (if needed) and select the latest version.  In my case it is `4.24.1`. Make sure it is of version `4.24.x` if you want to ensure that you are compatible with this walk through.
+
+![install unreal 5.2 on your PC](images/MakeSureUnreal52.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
+
+
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now once it installs press the **Launch** button on the latest version of Unreal.
 
 ![alt_text](images/.png)
 
