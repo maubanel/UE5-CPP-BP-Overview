@@ -94,15 +94,26 @@ Then the only object outside of the lighting folder in the **Ground**, which is 
 When you hit run we get a whole slew of other files:
 
 * **Default Pawn** (this is the first person controller that we can move around the scene)
+
 * Game mode base (While certain fundamentals, like the number of players required to play, or the method by which those players join the game, are common to many types of games, limitless rule variations are possible depending on the specific game you are developing. Regardless of what those rules are, Game Modes are designed to define and implement them.)
+
 * **Network Manager** (handles game-specific networking management  such as cheat detection, bandwidth management, etc.)
+
 * **Game Session** (handles login approval, arbitration, online game interface)
+
 * **Game State** ( is responsible for enabling the clients to monitor the state of the game. Conceptually, the Game State should manage information that is meant to be known to all connected clients and is specific to the Game Mode but is not specific to any individual player. It can keep track of game-wide properties such as the list of connected players, team score in Capture The Flag, missions that have been completed in an open world game, and so on.<br/><br/>Game State is not the best place to keep track of player-specific things like how many points one specific player has scored for the team in a Capture The Flag match because that can be handled more cleanly by Player State. In general, the GameState should track properties that change during gameplay and are relevant and visible to everyone. While the Game mode exists only on the server, the Game State exists on the server and is replicated to all clients, keeping all connected machines up to date as the game progresses.)
+
+
 * **HUD** (The HUD refers to the status and information overlaid on the screen during gameplay. The purpose of the HUD is to inform the player of the current state of the game, i.e. the score, their health, the amount of time remaining)
+
 * **ParticleEventManager** (used by Niagara for particles?)
+
 * **Player Camera Manager** (is responsible for managing the camera for a particular player. It defines the final view properties used by other systems (e.g. the renderer), meaning you can think of it as your virtual eyeball in the world. It can compute the final camera properties directly, or it can arbitrate/blend between other objects or actors that influence the camera (e.g. blending from one CameraActor to another).)
+
 * **Player Controller** (is the interface between the Pawn and the human player controlling it. The PlayerController essentially represents the human player's will.)
+
 * **Player Start PIE** (The ability to spawn a player into the world at any location is a very useful feature for any game. Unreal Engine 4 offers a special Actor that will allow you to do this called a Player Start. A Player Start is just that, a location in the game world that the player will start from.)
+
 * **Player State** (A PlayerState is created for every player on a server (or in a standalone game). PlayerStates are replicated to all clients, and contain network game relevant information about the player, such as playername, score, etc.)
 
 ![emptyRun](images/emptyRun.png)
