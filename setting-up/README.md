@@ -116,6 +116,8 @@ When you hit run we get a whole slew of other files:
 
 * **Player State** (A PlayerState is created for every player on a server (or in a standalone game). PlayerStates are replicated to all clients, and contain network game relevant information about the player, such as playername, score, etc.)
 
+So in **Unreal** an empty project has a lot of built in classes that does a lot of heavy lifting for us right out of the gate.
+
 ![emptyRun](images/emptyRun.png)
 
 ![](../images/line.png)
