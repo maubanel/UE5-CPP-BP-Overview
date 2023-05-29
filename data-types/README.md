@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Add Title
+### Blueprint Data Types
 
 <sub>[previous](../) • [home](../README.md#user-content-ue5-bp-overview) • [next](../)</sub>
 
