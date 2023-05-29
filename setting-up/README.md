@@ -33,7 +33,7 @@ Now once it installs press the **Launch** button on the **5.2.X** version of Unr
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-This brings up the **Unreal Project Browswer** window.  This allows you to select templates with the key assets already implemented.  We will select from the **Games** templates a **Blank** project. We will start with a **Blueprint+** project.  Leave the quality at **Maximum Quality**, **Raytracing** disabled, a target platform of **Desktop** and we have **No Starter Content**. Then select a folder and call the project `BPOverview`. Press the **Create** button.
+This brings up the **Unreal Project Browswer** window.  This allows you to select templates with the key assets already implemented.  We will select from the **Games** templates a **Blank** project. We will start with a **Blueprint** project.  Leave the quality at **Maximum Quality**, **Raytracing** disabled, a target platform of **Desktop** and we have **No Starter Content**. Then select a folder and call the project `BPOverview`. Press the **Create** button.
 
 ![alt_text](images/BlankGame.png)
 
