@@ -33,7 +33,7 @@ Let's add a **Blueprint** to the game that will hold some text.  Select the **Bl
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Name that Blueprint `BP_Int`.  We are using [Unreal's Wiki naming convention](https://wiki.unrealengine.com/Assets_Naming_Convention) for our projects.  They recommends that we preface blueprint names with `BP_`.
+Name that Blueprint `BP_Int`.  We are using [Unreal's Recommended Naming Convention](https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/AssetNaming/) for our projects.  They recommends that we preface blueprint names with `BP_`.
 
 ![name it BP_Int](images/bpInt.png)
 
