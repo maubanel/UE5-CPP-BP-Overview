@@ -49,9 +49,9 @@ You should get to a project screen with an **Untitled** map with some elements a
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
+Now **Unreal's** default level is one that supports large level streaming.  This is not necessary in our case.  Select **File | New Level...** and select a **Basic** level and press the <kbd>Create</kbd> button.
 
-
-![alt_text](images/NewLevel.png)
+![create new basic level](images/NewLevel.png)
 
 ![](../images/line2.png)
 
