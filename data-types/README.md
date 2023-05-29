@@ -23,7 +23,7 @@ Lets look at the complementary data types in UE5.
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addActorBPClass.png)
 
 ![](../images/line2.png)
 
