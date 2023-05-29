@@ -23,13 +23,19 @@ Lets look at the complementary data types in UE5.
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-![alt_text](images/addActorBPClass.png)
+Let's add a **Blueprint** to the game that will hold some text.  Select the **Blueprints** folder and *right click* in the open area and select **Blueprint Class**. Then with the next popup, select **Actor** (we will be getting into classes later).  This is the minimum class needed to be a game object in the world.  This comes with lots of functionality that we will explore as we go along.  The most important thing is that it allows us to attach geometry, text and apply physics to that object.
+
+>An Actor is any object that can be placed into a level, such as a Camera, static mesh, or player start location. Actors support 3D transformations such as translation, rotation, and scaling. - Unreal Manual
+
+![add actor class](images/addActorBPClass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Name that Blueprint `BP_Int`.  We are using [Unreal's Wiki naming convention](https://wiki.unrealengine.com/Assets_Naming_Convention) for our projects.  They recommends that we preface blueprint names with `BP_`.
+
+![name it BP_Int](images/bpInt.png)
 
 ![](../images/line2.png)
 
