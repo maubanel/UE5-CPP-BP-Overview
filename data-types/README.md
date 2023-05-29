@@ -16,6 +16,7 @@ Blueprints is designed to be accessible to both programmers and non-programmers,
 
 C++ using **Unreal's Library** can compile and be used a blueprints. The relationship between Blueprints and C++ in Unreal Engine is complementary. Blueprints provide a visual and higher-level approach to implementing gameplay mechanics and interactions, while C++ offers greater control, flexibility, and performance optimizations. You can use both in combination, depending on your needs and the complexity of your project. Blueprint scripts can be extended and enhanced with custom C++ code when necessary to achieve specific functionality or improve performance.
 
+Lets look at the complementary data types in UE5.
 <br>
 
 ---
