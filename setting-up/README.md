@@ -15,7 +15,9 @@ It is easiest to manage the various versions of Unreal using the **Epic Launcher
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
 You will need to have an account with Epic games, but don't worry they are free to register for.  Unreal Engine 4 is freely available for students.
-Once you have installed the launcher run the program and select **Unreal Engine** on the side menu and **Library** on the top menu. Press the **+** button to add a new build (if needed) and select the latest version.  In my case it is `4.24.1`. Make sure it is of version `4.24.x` if you want to ensure that you are compatible with this walk through.
+Once you have installed the launcher run the program and select **Unreal Engine** on the side menu and **Library** on the top menu. Press the **+** button to add a new build (if needed) and select the latest version.  In my case it is `5.2.X`. Make sure it is of version `5.2.x` if you want to ensure that you are compatible with this walk through (the third digit should work as these represent non-breaking changes to the engine and just bug-fixes).
+
+Also, before installing select **Options** and only download platforms you need support (PC is built in).  So I saved some space by removing hand held versions of the engine. We also do not need the **Editor symbols for debugging** yet so we can save ~60 gigs here by not including it.  You can add these at any time in the future.
 
 ![install unreal 5.2 on your PC](images/MakeSureUnreal52.png)
 
