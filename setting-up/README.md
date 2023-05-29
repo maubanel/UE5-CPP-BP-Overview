@@ -33,7 +33,7 @@ Now once it installs press the **Launch** button on the **5.2.X** version of Unr
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-This brings up the **Template** screen.  This allows you to select games with the key assets already implemented.  We will select a **Blank** project then press the **Next** button. We will start with a **C++** project.  Leave the quality at **Maximum Quality**, **Raytracing** disabled, a target platform of **Desktop / Console** and we have **No Starter Content**.  Outside of changing Blueprint to C++, all other settings should be default.  Then select a folder and call the project `MyFirstProject`. Press the **Create Project** button.
+This brings up the **Unreal Project Browswer** window.  This allows you to select templates with the key assets already implemented.  We will select from the **Games** templates a **Blank** project. We will start with a **Blueprint+** project.  Leave the quality at **Maximum Quality**, **Raytracing** disabled, a target platform of **Desktop** and we have **No Starter Content**. Then select a folder and call the project `BPOverview`. Press the **Create** button.
 
 ![alt_text](images/BlankGame.png)
 
