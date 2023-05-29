@@ -57,7 +57,9 @@ Now **Unreal's** default level is one that supports large level streaming.  This
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/twoNewFolders.png)
 
 ![](../images/line2.png)
 
