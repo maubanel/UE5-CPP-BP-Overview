@@ -12,6 +12,8 @@ This is a very quick overview of the foundation of the visual Blueprint scriptin
 ## Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Setting Up Unreal](setting-up/README.md#user-content-setting-up-unreal) <br>
+<kbd></kbd> &nbsp;&nbsp; [Blueprint Data Types](data-types/README.md#user-content-blueprint-data-types) <br>
+
 
 <!-- LICENSE -->
 ## License

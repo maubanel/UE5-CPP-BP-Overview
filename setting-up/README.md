@@ -2,7 +2,7 @@
 
 ### Setting Up Unreal
 
-<sub>[home](../README.md#user-content-ue5-bp-overview) • [next](../)</sub>
+<sub>[home](../README.md#user-content-ue5-bp-overview) • [next](../data-types/README.md#user-content-blueprint-data-types)</sub>
 
 ![](../images/line3.png)
 
@@ -81,10 +81,31 @@ Press **Edit | Project Settings** and select on the left hand side **Maps & Mode
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-In the editor you see an **Atmospheric Fog** which adds some fog to the scene (sometimes used to cut down draw calls for distant objects), a floor to move around on, a light source simulating the sun a **Player Start** object that decides where the player gets spawned when the level starts, a **Sky Sphere** that contains the sky and sun in a round ball that we are inside of, a **SkyLight** that imitates bounced lights so that the shadows are not as sharp and there is detail in parts of then scene that don't have direct sun and finally a **SpereReflector** object that handles reflecting objects in shiny surfaces.  We will just leave all of this alone, and you can hit the **Play** button and notice that nothing happens but you can move around the scene with the arrow buttons.
-![emptyRun](images/emptyRun.png)
+In the editor you see a **Lighting** folder with a **Directional Light**.  Ths is the main light representing the *sun* in the game.  It is a directional light that generates a consistent light with inifinite size and reach. We then have an **Exponential Height Fog**.
 
-![](../images/line2.png)
+>Exponential Height Fog creates more density in low places of a map and less density in high places. The transition is smooth, so you never get a hard cutoff as you increase altitude. Exponential Height Fog also provides two fog colors—one for the hemisphere facing the dominant directional light (or straight up if none exists), and another color for the opposite hemisphere. - Unreal Manual
+
+We then have a **Sky Atmosphere** which is a physically-based sky and atmosphere rendering system with time-of-day features and ground-to-space view transitions featuring aerial perspective. We also have a **Skylight** which captures the distant parts of your level and applies that to the scene as a light. That means the sky's appearance and its lighting/reflections will match, even if your sky is coming from atmosphere, or layered clouds on top of a skybox, or distant mountains. This acts as an ambient light (light particles bouncing off our atmosphere and filling in shadows and details).
+
+The **SkySphere** is a blueprint that holds a very large sphere that acts as our sky. Then finally we have **Volumetric Clouds** which are 3-D clouds that interact with the sun and can cast shadows on the ground.
+
+Then the only object outside of the lighting folder in the **Ground**, which is a static mesh of our ground plane. 
+
+When you hit run we get a whole slew of other files:
+
+* Default pawn (this is the first person controller that we can move around the scene)
+* Game mode base (While certain fundamentals, like the number of players required to play, or the method by which those players join the game, are common to many types of games, limitless rule variations are possible depending on the specific game you are developing. Regardless of what those rules are, Game Modes are designed to define and implement them.)
+* Network manager (handles game-specific networking management  such as cheat detection, bandwidth management, etc.)
+* Game session (handles login approval, arbitration, online game interface)
+* Game State ( is responsible for enabling the clients to monitor the state of the game. Conceptually, the Game State should manage information that is meant to be known to all connected clients and is specific to the Game Mode but is not specific to any individual player. It can keep track of game-wide properties such as the list of connected players, team score in Capture The Flag, missions that have been completed in an open world game, and so on.<br/><br/>Game State is not the best place to keep track of player-specific things like how many points one specific player has scored for the team in a Capture The Flag match because that can be handled more cleanly by Player State. In general, the GameState should track properties that change during gameplay and are relevant and visible to everyone. While the Game mode exists only on the server, the Game State exists on the server and is replicated to all clients, keeping all connected machines up to date as the game progresses.)
+* HUD (The HUD refers to the status and information overlaid on the screen during gameplay. The purpose of the HUD is to inform the player of the current state of the game, i.e. the score, their health, the amount of time remaining)
+* ParticleEventManager (used by Niagara for particles?)
+* Player Camera Manager (is responsible for managing the camera for a particular player. It defines the final view properties used by other systems (e.g. the renderer), meaning you can think of it as your virtual eyeball in the world. It can compute the final camera properties directly, or it can arbitrate/blend between other objects or actors that influence the camera (e.g. blending from one CameraActor to another).)
+* Player Controller (is the interface between the Pawn and the human player controlling it. The PlayerController essentially represents the human player's will.)
+* Player Start PIE (The ability to spawn a player into the world at any location is a very useful feature for any game. Unreal Engine 4 offers a special Actor that will allow you to do this called a Player Start. A Player Start is just that, a location in the game world that the player will start from.)
+* Player State (A PlayerState is created for every player on a server (or in a standalone game). PlayerStates are replicated to all clients, and contain network game relevant information about the player, such as playername, score, etc.)
+
+![emptyRun](images/emptyRun.png)
 
 ![](../images/line.png)
 
@@ -94,5 +115,5 @@ In the editor you see an **Atmospheric Fog** which adds some fog to the scene (s
 
 ![](../images/line.png)
 
-| [home](../README.md#user-content-ue5-bp-overview) | [next](../)|
+| [home](../README.md#user-content-ue5-bp-overview) | [next](../data-types/README.md#user-content-blueprint-data-types)|
 |---|---|
