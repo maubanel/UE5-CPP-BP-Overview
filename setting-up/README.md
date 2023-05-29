@@ -27,13 +27,15 @@ Also, before installing select **Options** and only download platforms you need 
 
 Now once it installs press the **Launch** button on the **5.2.X** version of Unreal.
 
-![launch Unreal](images/.png)
+![launch Unreal](images/launchGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now once it installs press the **Launch** button on the latest version of Unreal.
+This brings up the **Template** screen.  This allows you to select games with the key assets already implemented.  We will select a **Blank** project then press the **Next** button. We will start with a **C++** project.  Leave the quality at **Maximum Quality**, **Raytracing** disabled, a target platform of **Desktop / Console** and we have **No Starter Content**.  Outside of changing Blueprint to C++, all other settings should be default.  Then select a folder and call the project `MyFirstProject`. Press the **Create Project** button.
+
+![alt_text](images/BlankGame.png)
 
 ![alt_text](images/.png)
 
@@ -41,9 +43,7 @@ Now once it installs press the **Launch** button on the latest version of Unreal
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-This brings up the **Template** screen.  This allows you to select games with the key assets already implemented.  We will select a **Blank** project then press the **Next** button. We will start with a **C++** project.  Leave the quality at **Maximum Quality**, **Raytracing** disabled, a target platform of **Desktop / Console** and we have **No Starter Content**.  Outside of changing Blueprint to C++, all other settings should be default.  Then select a folder and call the project `MyFirstProject`. Press the **Create Project** button.
-
-![alt_text](images/BlankGame.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
