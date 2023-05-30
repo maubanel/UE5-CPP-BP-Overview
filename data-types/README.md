@@ -2,7 +2,7 @@
 
 ### Blueprint Data Types
 
-<sub>[previous](../setting-up/README.md#user-content-setting-up-unreal) • [home](../README.md#user-content-ue5-bp-overview) • [next](../)</sub>
+<sub>[previous](../setting-up/README.md#user-content-setting-up-unreal) • [home](../README.md#user-content-ue5-bp-overview) • [next](../fractions/README.md#user-content-fractional-numbers)</sub>
 
 ![](../images/line3.png)
 
@@ -222,5 +222,5 @@ Remember to get the newline you need to press <kbd>Shift</kbd> and <kbd>Return/E
 
 ![](../images/line.png)
 
-| [previous](../setting-up/README.md#user-content-setting-up-unreal)| [home](../README.md#user-content-ue5-bp-overview) | [next](../)|
+| [previous](../setting-up/README.md#user-content-setting-up-unreal)| [home](../README.md#user-content-ue5-bp-overview) | [next](../fractions/README.md#user-content-fractional-numbers)|
 |---|---|---|
