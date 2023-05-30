@@ -92,7 +92,7 @@ Call the variable `Year`.
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/connectTextPins.png)
 
 ![](../images/line2.png)
 
