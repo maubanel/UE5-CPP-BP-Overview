@@ -65,7 +65,17 @@ Drag a reference of **Integer Text** to the graph.  Pull off the pin and select 
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+The **Begin Play** node is a special type of event node that is executed when an actor or object is first spawned or begins its gameplay in the level.
+
+The Begin Play node is commonly used to set up initial conditions, initialize variables, and perform any necessary setup tasks when an actor or object is created. It serves as the entry point for executing logic and behavior at the start of gameplay.
+
+Connect the execution pin from the **Begin Play** node to the **Set Text Node**. The **execution pin** refers to the pin on a node in the Blueprint visual scripting system that represents the flow of execution. It is typically denoted by a solid arrow or line extending from the node. The execution pin determines the order in which nodes are executed, controlling the flow of logic within the Blueprint.
+
+When you connect nodes in a Blueprint graph using execution pins, you create a sequence of events that occur one after another. The execution starts from a specific entry point, such as the Event BeginPlay node, and then follows the connected execution pins to execute subsequent nodes.
+
+
+
+![alt_text](images/setTextConnectPins.png)
 
 ![](../images/line2.png)
 
