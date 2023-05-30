@@ -73,6 +73,7 @@ Connect the execution pin from the **Begin Play** node to the **Set Text Node**.
 
 When you connect nodes in a Blueprint graph using execution pins, you create a sequence of events that occur one after another. The execution starts from a specific entry point, such as the Event BeginPlay node, and then follows the connected execution pins to execute subsequent nodes.
 
+Make sure **Integer Text** data pin is connected to **Set Text | Target**.
 
 
 ![alt_text](images/setTextConnectPins.png)
