@@ -22,9 +22,9 @@ In the **Blueprints** folder add a new **Blueprint Class** of type **Actor** and
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Open up **BP_Frac** and press the <kbd>Add</kbd> component button add a **TextRender** component.  
+Open up **BP_Frac** and press the <kbd>Add</kbd> component button add a **TextRender** component.  Rename it to `Fractional Text`.
 
-![alt_text](images/addTextRenderComponent.png)
+![add textrender component called Fractional Text](images/addTextRenderComponent.png)
 
 ![](../images/line2.png)
 
