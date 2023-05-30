@@ -140,7 +140,9 @@ Go back to **BP_Int** and click on the arrow to see more settings in the **To Te
 
 ##### `Step 14.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Press the <kbd>Play</kbd> button and now you ahve the year `2050` without the comma - formatted the way we like.
+
+![play to display 2050 correctly](images/commaGone.png)
 
 ![](../images/line2.png)
 
