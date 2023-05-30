@@ -208,7 +208,7 @@ Now alter the **Format Text** to:
 
 ```
 
-![alt_text](images/formatInt64Text.png)
+![format text int64](images/formatInt64Text.png)
 
 ![](../images/line.png)
 
