@@ -194,7 +194,9 @@ The other nice thing is that if we try and enter `2,147,483,648` (one over) - it
 
 ##### `Step 20.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Now create a new varialbe called 
+
+![alt_text](images/Int64.png)
 
 ![](../images/line2.png)
 
