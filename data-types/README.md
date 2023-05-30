@@ -178,13 +178,17 @@ Now you cannot do math within the **Literal** like you can in **C++**.  But you 
 
 ##### `Step 18.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Unlike in **C++** if you try and add a double it will go back to an int when you press enter or leave the node.  So no conversion is happening after the compile and running of the game.
+
+![can't add double to int](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+The other nice thing is that if we try and enter 
+
+![alt_text](images/max32Value.png)
 
 ![](../images/line2.png)
 
