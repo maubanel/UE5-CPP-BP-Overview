@@ -116,7 +116,7 @@ Drag **BP_Int** to the level.  Rotate it (in my case -90° on the **Z** axis) so
 
 ##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-I find the text a bit light and small.  Open up **BP_Int** and change the color to taste, and I adjusted my size to `72`
+I find the text a bit light and small.  Open up **BP_Int** and change the color to taste, and I adjusted the **World Size** to `72`.
 
 ![alt_text](images/changeSizeColor.png)
 
