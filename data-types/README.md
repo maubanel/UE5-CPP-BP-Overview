@@ -194,15 +194,21 @@ The other nice thing is that if we try and enter `2,147,483,648` (one over) - it
 
 ##### `Step 20.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond:
 
-Now create a new varialbe called `Year64` and pick `Integer64`.  This is guaranteed to be `64` bits on all platforms. This is equivalent of a `long` in **C++**. It gives a range from −9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. Add a new **To Text(Integer64)** node.  Drag a **Get Year64** to the graph.  Connect **Year64** to **To Text** and then to **Draw Text**.  Put the largest number and print it to the screen.
+Now create a new varialbe called `Year64` and pick `Integer64`.  This is guaranteed to be `64` bits on all platforms. This is equivalent of a `long` in **C++**. It gives a range from −9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. Add a new **To Text(Integer64)** node.  Drag a **Get Year64** to the graph.  Connect **Year64** to **To Text** and then to **Format Text**.  Put the largest number and print it to the screen.
 
-![alt_text](images/Int64.png)
+![int 64](images/Int64.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now alter the **Format Text** to:
+
+```
+
+```
+
+![alt_text](images/formatInt64Text.png)
 
 ![](../images/line.png)
 
