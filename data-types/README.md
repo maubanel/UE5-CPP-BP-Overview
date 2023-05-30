@@ -49,7 +49,7 @@ Open up **BP_Int**.  Press the <kbd>Add</kbd> button and add a **Text Render** c
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/integerText.png)
 
 ![](../images/line2.png)
 
