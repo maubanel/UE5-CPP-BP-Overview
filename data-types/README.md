@@ -82,7 +82,7 @@ Make sure **Integer Text** data pin is connected to **Set Text | Target**.
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the **+** icon to add a **Variable**.  Selet `Integer`.  Now this is an `int32` inside the C++ and not the vanilla C++ int, and is guaranteed to be 32 bit (4 bytes).
+Press the **+** icon to add a **Variable**.  Selet `Integer`.  Now this is an Unreal `int32` in the C++ and not the vanilla C++ int, and is guaranteed to be 32 bit (4 bytes) on all systems. It is a Whole number value between −2,147,483,648 and 2,147,483,647.
 
 Call the variable `Year`.
 
@@ -178,17 +178,17 @@ Now you cannot do math within the **Literal** like you can in **C++**.  But you 
 
 ##### `Step 18.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Unlike in **C++** if you try and add a double it will go back to an int when you press enter or leave the node.  So no conversion is happening after the compile and running of the game.
+Unlike in **C++** if you try and add a double it will go back to an int when you press enter or leave the node.  So no conversion is happening after the compile and running of the game. Here I entered `8.5` and it changes automatically to `8` and removes the decimal and fraction.
 
-![can't add double to int](images/.png)
+![can't add double to int](images/FractionWontStay.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The other nice thing is that if we try and enter 
+The other nice thing is that if we try and enter `2,147,483,648` (one over) - it doesn't wrap to `0` like in C++ but gets clamped at `2,147,483,647`.  Try it yourself...
 
-![alt_text](images/max32Value.png)
+![clamps at 2,147,483,647](images/max32Value.png)
 
 ![](../images/line2.png)
 
