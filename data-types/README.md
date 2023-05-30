@@ -41,7 +41,9 @@ Name that Blueprint `BP_Int`.  We are using [Unreal's Recommended Naming Convent
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **BP_Int**.  Press the <kbd>Add</kbd> button and add a **Text Render** component.
+
+![add text render component](images/textRenderComponent.png)
 
 ![](../images/line2.png)
 
