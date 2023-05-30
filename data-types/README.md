@@ -216,7 +216,7 @@ Remember to get the newline you need to press <kbd>Shift</kbd> and <kbd>Return/E
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Fractional Numbers"> -->
 
 ![next up - ](images/banner.png)
 
