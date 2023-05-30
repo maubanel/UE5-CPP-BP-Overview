@@ -205,8 +205,12 @@ Now create a new varialbe called `Year64` and pick `Integer64`.  This is guarant
 Now alter the **Format Text** to:
 
 ```
-
+Integer 64
+{A}
+Integer
+{B}
 ```
+Remember to get the newline you need to press <kbd>Shift</kbd> and <kbd>Return/Enter</kbd>. Now it will add an extra pin so put the **Integer** into **A** and **Integer64** into **B**.
 
 ![format text int64](images/formatInt64Text.png)
 
