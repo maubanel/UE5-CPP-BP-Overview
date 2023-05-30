@@ -132,9 +132,9 @@ Go back to the **Editor** and press the <kbd>Play</kbd> button.  Notice that Unr
 
 ##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to **BP_Int** and click on the arrow to see more settings in the 
+Go back to **BP_Int** and click on the arrow to see more settings in the **To Text** node and turn **Use Grouping** to `false`.
 
-![alt_text](images/turnOffUseGrouping.png)
+![turn off use grouping](images/turnOffUseGrouping.png)
 
 ![](../images/line2.png)
 
