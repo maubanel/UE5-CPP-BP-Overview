@@ -22,7 +22,9 @@ In the **Blueprints** folder add a new **Blueprint Class** of type **Actor** and
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **BP_Frac** and press the <kbd>Add</kbd> component button add a **TextRender** component.  
+
+![alt_text](images/addTextRenderComponent.png)
 
 ![](../images/line2.png)
 
