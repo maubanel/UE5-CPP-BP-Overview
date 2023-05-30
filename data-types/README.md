@@ -148,7 +148,7 @@ Press the <kbd>Play</kbd> button and now you ahve the year `2050` without the co
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/formatText.png)
 
 ![](../images/line2.png)
 
