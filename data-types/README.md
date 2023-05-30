@@ -148,7 +148,15 @@ Press the <kbd>Play</kbd> button and now you ahve the year `2050` without the co
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/formatText.png)
+Go back to **BP_Int** and add a **Format Text**.  Add the text
+
+```
+Integer
+{A}
+```
+You get a newline in the **Format Text** node by pressing **Shift Enter**.  The `{A}` add another variable pin which will append the words **Integer** with the integer text. Now connect the **To Text | Return Value** to the **Format Text | A** pin then on to the **Value** pin in **Set Text**.
+
+![add Integer title](images/formatText.png)
 
 ![](../images/line2.png)
 
