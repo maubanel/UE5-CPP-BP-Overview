@@ -132,7 +132,9 @@ Go back to the **Editor** and press the <kbd>Play</kbd> button.  Notice that Unr
 
 ##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Go back to **BP_Int** and click on the arrow to see more settings in the 
+
+![alt_text](images/turnOffUseGrouping.png)
 
 ![](../images/line2.png)
 
