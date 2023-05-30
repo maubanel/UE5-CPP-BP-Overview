@@ -162,7 +162,7 @@ You get a newline in the **Format Text** node by pressing **Shift Enter**.  The 
 
 ##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/IntegerTitleInGame.png)
 
 ![](../images/line2.png)
 
