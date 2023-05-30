@@ -124,7 +124,9 @@ I find the text a bit light and small.  Open up **BP_Int** and change the color 
 
 ##### `Step 12.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Go back to the **Editor** and press the <kbd>Play</kbd> button.  Notice that Unreal by default formats the integer with a comma, which for a year is not good.  Lets fix that.
+
+![play and see 2050 year in game](images/PlayTwentyFifty.png)
 
 ![](../images/line2.png)
 
