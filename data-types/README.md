@@ -92,7 +92,7 @@ Call the variable `Year`.
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag a **Get IntegerTexzt** to the graph.  Connect the **Year** integer output pin to the **Set Text | Value** node.  It will add a **To Text(Integer) node to cast the int to a text format.
+Drag a **Get IntegerTexzt** to the graph.  Connect the **Year** integer output pin to the **Set Text | Value** node.  It will add a **To Text(Integer)** node to cast the int to a text format. Press the <kbd>Compile</kbd> button.
 
 ![connect year to set text node](images/connectTextPins.png)
 
@@ -100,7 +100,9 @@ Drag a **Get IntegerTexzt** to the graph.  Connect the **Year** integer output p
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/initialzeVars.png)
+Now as soon as any variable is compiled in a blueprint it is initialized to the default value (`0` for int). So in a **Blueprint** you cannot declare without initializing a variable.  Set **Year** initilizing **Default** value to `2050`.
+
+![set default to 2050](images/initialzeVars.png)
 
 ![](../images/line2.png)
 
