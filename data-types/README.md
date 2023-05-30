@@ -170,7 +170,9 @@ Press the <kbd>Play</kbd> button and you now have a title on top of the year.
 
 ##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now you cannot do math within the **Literal** like you can in **C++**.  But you can add math nodes and add to the value.  I added 10 and it displays the result.
+
+![add 10 to pin](images/mathToPins.png)
 
 ![](../images/line2.png)
 
