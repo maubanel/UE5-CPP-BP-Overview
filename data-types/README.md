@@ -82,7 +82,11 @@ Make sure **Integer Text** data pin is connected to **Set Text | Target**.
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the **+** icon to add a **Variable**.  Selet `int`.  Now this is an `int32` inside the C++ and not the vanilla C++ int, and is guaranteed to be 32 bit (4 bytes).
+
+Call the variable `Year`.
+
+![add int variable Yea](images/addYearInteger.png)
 
 ![](../images/line2.png)
 
