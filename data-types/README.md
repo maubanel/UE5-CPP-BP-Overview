@@ -49,13 +49,17 @@ Open up **BP_Int**.  Press the <kbd>Add</kbd> button and add a **Text Render** c
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/integerText.png)
+Rename **Text Render** to `IntegerText` and change the **Text** to `Integer`.  Set the **Horizontal Alignment** to `Center` and the **Vertical Aligmnet** to `Text Center`.  Pick a **Text Render Color** that contrasts with the blue sky.
+
+![adjust text render component](images/integerText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Drag a reference of **Integer Text** to the graph.  Pull off the pin and select **Text Render | Set Text**.
+
+![set text node](images/setTextInt.png)
 
 ![](../images/line2.png)
 
