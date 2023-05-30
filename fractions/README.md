@@ -14,7 +14,9 @@ The big change in **Unreal Engine 5** is the introduction of **double** precisio
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-![alt_text](images/AddNewBP.png)
+In the **Blueprints** folder add a new **Blueprint Class** of type **Actor** and call it `BP_Frac`.
+
+![add BP_Frac blueprint](images/AddNewBP.png)
 
 ![](../images/line2.png)
 
