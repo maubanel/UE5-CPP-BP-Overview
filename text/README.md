@@ -73,23 +73,25 @@ Now change the **Text** to say `String-TextName`.
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Drag a copy of **BP_Text** to the level.
-
-![put BP_Text in game](images/dragToGame.png)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now connect the 
+Now connect the **Make Text Literal** output to the **Set Text | Value** pin.
 
 ![alt_text](images/showText.png)
 
 ![](../images/line2.png)
 
+##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Drag a copy of **BP_Text** to the level. Rotate it to face the camera.
+
+![put BP_Text in game](images/dragToGame.png)
+
+![](../images/line2.png)
+
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Play</kbd> button and you will see it print **I am a text**.
+
+![print text object in game](images/pressPlayText.png)
 
 ![](../images/line2.png)
 
@@ -101,7 +103,9 @@ Now connect the
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+You can see that if we connect 
+
+![alt_text](images/connectNameToGame.png)
 
 ![](../images/line2.png)
 
