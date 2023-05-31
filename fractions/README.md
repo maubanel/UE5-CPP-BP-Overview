@@ -38,7 +38,9 @@ Copy and paste the color of the text from **BP_Int** to **BP_Frac** so you have 
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Drag the **FractionalText** to the graph.  Pull off the pin of the **Fractional Text** and select the **Set Text** node.
+
+![set text with fractional text node](images/setFractionalText.png)
 
 ![](../images/line2.png)
 
