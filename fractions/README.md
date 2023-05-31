@@ -100,31 +100,43 @@ Press the <kbd>Compile</kbd> button and go back to the game. Press the <kbd>Star
 
 ##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+In the game you can navigate with the **WASD** keys to move along the ground and the **Q** (Up) and **E** (Down) keys to move up and down. Now the game starts where the camera last left off.  We can also set a starting point for the game.
+
+Press the **Add Object** button (box with arrow) and type in **Player Start** and add the player start actor to the level in front of your text.
+
+![add player start actor to game](images/addObjectButton.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Rotate the player start actor so it faces the text.  Look at the blue arrow to know the front facing direction of the player when starting.
+
+![rotate player start actor to face text](images/rotatePlayerStart.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Press the **Three Dots** next to the <kbd>Play</kbd> button.  Select **Default Player Start**. Press the <kbd>Play</kbd> button and adjust the position of the player start so you are well centered and happy with your starting position.  This way you can now move around and you will always start at the same place every time.
+
+![select default player start](images/selectDefaultPlayerStart.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Go back to **BP_Frac** and *right click* and select **Keyboard Events | X** node. 
+
+![add X node](images/addInteractivityX.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Drag another copy of the **DoubleVar** variable to the graph.  Add a **Random Float in Range** node and set it from `2.0` to `5.0`.  Then add a **Multiplication node and multiply **DoubleVar** by the **Random Float in Range**.
+
+![multiply DoubleVar by Random Float in Rage](images/multDoubleVar.png)
 
 ![](../images/line2.png)
 
