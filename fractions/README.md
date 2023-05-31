@@ -2,7 +2,7 @@
 
 ### Fractional Numbers
 
-<sub>[previous](../data-types/README.md#user-content-blueprint-data-types) • [home](../README.md#user-content-ue5-bp-overview) • [next](../text/README.md#user-content-fractional-names-strings-text)</sub>
+<sub>[previous](../data-types/README.md#user-content-blueprint-data-types) • [home](../README.md#user-content-ue5-bp-overview) • [next](../text/README.md#user-content-names-strings-text)</sub>
 
 ![](../images/line3.png)
 
@@ -214,5 +214,5 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/93ebc4dd-99a1-494a-bd
 
 ![](../images/line.png)
 
-| [previous](../data-types/README.md#user-content-blueprint-data-types)| [home](../README.md#user-content-ue5-bp-overview) | [next](../text/README.md#user-content-fractional-names-strings-text)|
+| [previous](../data-types/README.md#user-content-blueprint-data-types)| [home](../README.md#user-content-ue5-bp-overview) | [next](../text/README.md#user-content-names-strings-text)|
 |---|---|---|

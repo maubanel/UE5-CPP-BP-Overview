@@ -2,7 +2,7 @@
 
 ### Blueprint Operators
 
-<sub>[previous](../text/README.md#user-content-fractional-names-strings-text) • [home](../README.md#user-content-ue5-bp-overview) • [next](../)</sub>
+<sub>[previous](../text/README.md#user-content-names-strings-text) • [home](../README.md#user-content-ue5-bp-overview) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -144,5 +144,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-| [previous](../text/README.md#user-content-fractional-names-strings-text)| [home](../README.md#user-content-ue5-bp-overview) | [next](../)|
+| [previous](../text/README.md#user-content-names-strings-text)| [home](../README.md#user-content-ue5-bp-overview) | [next](../)|
 |---|---|---|
