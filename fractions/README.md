@@ -134,7 +134,7 @@ Go back to **BP_Frac** and *right click* and select **Keyboard Events | X** node
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-Drag another copy of the **DoubleVar** variable to the graph.  Add a **Random Float in Range** node and set it from `2.0` to `5.0`.  Then add a **Multiplication node and multiply **DoubleVar** by the **Random Float in Range**.
+Drag another copy of the **DoubleVar** variable to the graph.  Add a **Random Float in Range** node and set it from `2.0` to `5.0`.  Then add a **Multiplication** node and multiply **DoubleVar** by the **Random Float in Range**.
 
 ![multiply DoubleVar by Random Float in Rage](images/multDoubleVar.png)
 
