@@ -62,15 +62,17 @@ Create a new **Float** variable and call it `DoubleVar`.  In **Unreal 5** the fl
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Connect the **To Text | Return Value** to the ***Set Text | Value**.
 
-
-![alt_text](images/setTextPin.png)
+![connect ToText float](images/setTextPin.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go to the game and add **BP_Frac** to the room and place it on top of the **Int** leaving enough room between the classes.  
+
+![add double float to game](images/addDoubleFloatToLvl.png)
 
 ![](../images/line2.png)
 
