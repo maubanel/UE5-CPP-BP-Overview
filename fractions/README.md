@@ -204,6 +204,8 @@ Add a **Format Text** node to match the title that is displayed before you press
 
 Change the default value of **DoubleVar** to a small number like `1.2` so we get a better idea of the precision.  Press the <kbd>Compile</kbd> button.Press the <kbd>Play</kbd> button and then press the <kbd>X</kbd> and you will see fractions with the precision of a double!
 
+https://github.com/maubanel/UE5-BP-Overview/assets/5504953/93ebc4dd-99a1-494a-bdb9-7cf31b80b9c5
+
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Names Strings Text"> -->
