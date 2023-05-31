@@ -46,7 +46,7 @@ Drag the **FractionalText** to the graph.  Pull off the pin of the **Fractional 
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-
+Connect the **Execution Pin** between **Begin Play** and **Set Text** nodes. The white arrows represents the order of operations.  It is like line number in C++.
 
 ![connect Begin Play to Set Text](images/beginToSetT.png)
 
@@ -54,7 +54,7 @@ Drag the **FractionalText** to the graph.  Pull off the pin of the **Fractional 
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/AddFloat.png)
 
 ![](../images/line2.png)
 
