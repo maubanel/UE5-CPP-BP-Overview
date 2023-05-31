@@ -81,7 +81,9 @@ Drag a copy of **BP_Text** to the level.
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now connect the 
+
+![alt_text](images/showText.png)
 
 ![](../images/line2.png)
 
