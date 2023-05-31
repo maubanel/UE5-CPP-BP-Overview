@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-The big change in **Unreal Engine 5** is the introduction of **double** precision floats in blueprints.  The documentation states that when a **float** is selected the bluerpint at compile time will determine if it is a single `float` or a `double`.
+The big change in **Unreal Engine 5** is the introduction of **double** precision floats in blueprints.  The documentation states that when a **float** is selected in the blueprint - at compile time it will determine whether it is a single `float` or a `double`.
 
 <br>
 
@@ -206,7 +206,7 @@ Change the default value of **DoubleVar** to a small number like `1.2` so we get
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Names Strings Text"> -->
 
 ![next up - ](images/banner.png)
 
