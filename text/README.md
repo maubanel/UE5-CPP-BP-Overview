@@ -97,15 +97,17 @@ Press the <kbd>Play</kbd> button and you will see it print **I am a text**.
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+You can see that if we connect **Make Literal Name** to the **value** pin we will see in game **I am a name**.
+
+![send literal name to print](images/connectNameToGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-You can see that if we connect 
+Now when you don't initialize an `FString` or `FText`, it is an empty string "".  With an `FName` it defaults to `none` as it is used.  Delete all the text and run the game, and you will see it print none.
 
-![alt_text](images/connectNameToGame.png)
+![name has none as text](images/nameNone.png)
 
 ![](../images/line2.png)
 
