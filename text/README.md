@@ -65,13 +65,17 @@ to the appropriate Literal.
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now change the **Text** to say `String-TextName`.
+
+![change text to sting-text-name](images/stringTextNam.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Drag a copy of **BP_Text** to the level.
+
+![put BP_Text in game](images/dragToGame.png)
 
 ![](../images/line2.png)
 
