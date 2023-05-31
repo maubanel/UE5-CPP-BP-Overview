@@ -46,7 +46,9 @@ Drag the **FractionalText** to the graph.  Pull off the pin of the **Fractional 
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+
+
+![connect Begin Play to Set Text](images/beginToSetT.png)
 
 ![](../images/line2.png)
 
