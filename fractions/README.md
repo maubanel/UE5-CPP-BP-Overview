@@ -142,37 +142,51 @@ Drag another copy of the **DoubleVar** variable to the graph.  Add a **Random Fl
 
 ##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Drag yet another copy of **DoubleVar** onto the graph and this time select **Set DoubleVar** node.
+
+![set DoubleVar](images/setDoubleVar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Connect the execution pin from the **X** node to the new **Set DoubleVar** node.  Connect the output of the **Multiply** node to the input pin of the **Set DoubleVar** node.  Add another copy of the **Factional Text** component to the graph. Pull off the pin and select a **Set Text** node.  Finally connect the execution pin from the output of the **DoubleVar** to the **SetText** node.
+
+![multiply to set text node](images/setMultiplyText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select all the nodes coming from begin play with the mouse.  Press the <kbd>C</kbd> button and Unreal creates a group with a comment.  Call it `Set Initial Text`.  Now when ouou move it around, all the nodes move with it.  You can also customize the color of the node away from the default white.
+
+Select all the nodes attached the **X** button pin and press the <kbd>C</kbd> button and call it `Miltiply Text on X Button Press`. Organize the nodes to be clean and organized.
+
+![add comments and organize nodes](images/addComments.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the **Compile** button and I get an error.  Nothing is connected to the **Set Text | Value** pin.
+
+![compile then error](images/errorOnCompile.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Connect the **To Text | Return Value** and connect it to **Set Text | Value**.  Press the <kbd>Compile</kbd> button and the error goes away.
+
+![connect to text to set text](images/textToSetText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now you will not be able to get the **X** event unless you allow the actor to receive input.  Select the **PB_Frac(Self)** top component and turn **Auto Receive Input** to `Player0`.
+
+![set auto receive input](images/absorbInput.png)
 
 ![](../images/line.png)
 
