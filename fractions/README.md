@@ -2,7 +2,7 @@
 
 ### Fractional Numbers
 
-<sub>[previous](../data-types/README.md#user-content-blueprint-data-types) • [home](../README.md#user-content-ue5-bp-overview) • [next](../)</sub>
+<sub>[previous](../data-types/README.md#user-content-blueprint-data-types) • [home](../README.md#user-content-ue5-bp-overview) • [next](../text/README.md#user-content-fractional-names-strings-text)</sub>
 
 ![](../images/line3.png)
 
@@ -176,7 +176,7 @@ Press the **Compile** button and I get an error.  Nothing is connected to the **
 
 ##### `Step 20.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond:
 
-Connect the **To Text | Return Value** and connect it to **Set Text | Value**.  Press the <kbd>Compile</kbd> button and the error goes away.
+Connect the **To Text | Return Value** and connect it to **Set Text | Value**.  Press the <kbd>Compile</kbd> button and the error goes away. Also, lets set the **Maximum Fractional Digits** to `16` to see if we get double precision.
 
 ![connect to text to set text](images/textToSetText.png)
 
@@ -188,6 +188,22 @@ Now you will not be able to get the **X** event unless you allow the actor to re
 
 ![set auto receive input](images/absorbInput.png)
 
+![](../images/line2.png)
+
+![](../images/line2.png)
+
+##### `Step 22.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Add a **Format Text** node to match the title that is displayed before you press the **X**.
+
+![add Format Text node](images/addFormatTextNode.png)
+
+![](../images/line2.png)
+
+##### `Step 23.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Change the default value of **DoubleVar** to a small number like `1.2` so we get a better idea of the precision.  Press the <kbd>Compile</kbd> button.Press the <kbd>Play</kbd> button and then press the <kbd>X</kbd> and you will see fractions with the precision of a double!
+
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
@@ -196,5 +212,5 @@ Now you will not be able to get the **X** event unless you allow the actor to re
 
 ![](../images/line.png)
 
-| [previous](../data-types/README.md#user-content-blueprint-data-types)| [home](../README.md#user-content-ue5-bp-overview) | [next](../)|
+| [previous](../data-types/README.md#user-content-blueprint-data-types)| [home](../README.md#user-content-ue5-bp-overview) | [next](../text/README.md#user-content-fractional-names-strings-text)|
 |---|---|---|
