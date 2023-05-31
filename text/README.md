@@ -49,9 +49,9 @@ Drag the **Text** component onto the graph.  Then drag off the pin and select a 
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now lets demonstrate the three text types (they will all look identical) by adding a **Make Literal Text**, **Make Literal String** and **Make Literal Name** node.
 
-
-![alt_text](images/.png)
+![alt_text](images/makeLiterals.png.png)
 
 ![](../images/line2.png)
 
