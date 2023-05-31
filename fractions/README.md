@@ -200,7 +200,7 @@ Add a **Format Text** node to match the title that is displayed before you press
 
 ![](../images/line2.png)
 
-##### `Step 23.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 23.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Change the default value of **DoubleVar** to a small number like `1.2` so we get a better idea of the precision.  Press the <kbd>Compile</kbd> button.Press the <kbd>Play</kbd> button and then press the <kbd>X</kbd> and you will see fractions with the precision of a double!
 
