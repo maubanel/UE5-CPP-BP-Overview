@@ -70,7 +70,7 @@ Connect the **To Text | Return Value** to the ***Set Text | Value**.
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the game and add **BP_Frac** to the room and place it on top of the **Int** leaving enough room between the classes.  
+Go to the game and add **BP_Frac** to the room and place it on top of the **Int** leaving enough room between the classes.  Rotate the actor to face the camera.
 
 ![add double float to game](images/addDoubleFloatToLvl.png)
 
@@ -78,7 +78,16 @@ Go to the game and add **BP_Frac** to the room and place it on top of the **Int*
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Add a **Format Text** node between **Text Text** and **Set Text**.  Add the text:
+
+```
+Double or Float
+{A}
+````
+
+Rember newline is achieved by a <kbd>Shift Return/Enter</kbd>.  The `{A}` add a pin to the format text and will append the float to this **Text**.
+
+![alt_text](images/appendText.png)
 
 ![](../images/line2.png)
 
