@@ -2,7 +2,7 @@
 
 ### Names Strings Text
 
-<sub>[previous](../fractions/README.md#user-content-fractional-numbers) • [home](../README.md#user-content-ue5-bp-overview) • [next](../operators/README.md#user-content-bluerpint-operators)</sub>
+<sub>[previous](../fractions/README.md#user-content-fractional-numbers) • [home](../README.md#user-content-ue5-bp-overview) • [next](../operators/README.md#user-content-blueprint-operators)</sub>
 
 ![](../images/line3.png)
 
@@ -141,5 +141,5 @@ Test the **String Literal** to print **I am a string**.  Put the text back to:
 
 ![](../images/line.png)
 
-| [previous](../fractions/README.md#user-content-fractional-numbers)| [home](../README.md#user-content-ue5-bp-overview) | [next](../operators/README.md#user-content-bluerpint-operators)|
+| [previous](../fractions/README.md#user-content-fractional-numbers)| [home](../README.md#user-content-ue5-bp-overview) | [next](../operators/README.md#user-content-blueprint-operators)|
 |---|---|---|
