@@ -54,7 +54,7 @@ Connect the **Execution Pin** between **Begin Play** and **Set Text** nodes. The
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Create a new **Float** variable and call it `DoubleVar`.  In **Unreal 5** the float defaults to **double**.  The documentation says it decides at compile time to be a float or a double.  Drag **DoubleVar** onto the graph then put the curson on top of the output pin.  You will see type **double** in the tooltip.  Drag off of **DoubleVar** and select **To Text(Float)**.
+Create a new **Float** variable and call it `DoubleVar`.  In **Unreal 5** the float defaults to **double**.  The documentation says it decides at compile time to be a float or a double.  Drag **DoubleVar** onto the graph then put the curson on top of the output pin.  You will see type **double** in the tooltip.  Drag off of **DoubleVar** and select **To Text(Float)**. Press the <kbd>Compile</kbd> button and set the default float.  In this version I can only enter a *float* amount of digits and not the full 17 digits of a double. I assume this will be addressed.
 
 ![add DoubleVar float then change ToText](images/AddFloat.png)
 
@@ -83,7 +83,7 @@ Add a **Format Text** node between **Text Text** and **Set Text**.  Add the text
 ```
 Double or Float
 {A}
-````
+```
 
 Rember newline is achieved by a <kbd>Shift Return/Enter</kbd>.  The `{A}` add a pin to the format text and will append the float to this **Text**.
 
@@ -93,7 +93,8 @@ Rember newline is achieved by a <kbd>Shift Return/Enter</kbd>.  The `{A}` add a 
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Compile</kbd> button and go back to the game. Press the <kbd>Start</kbd> button.  You should now see the 
+![alt_text](images/RunDoubleInGameInitial.png)
 
 ![](../images/line2.png)
 
