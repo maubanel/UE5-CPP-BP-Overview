@@ -50,13 +50,17 @@ Drag the **Countdown Timer** to the graph and drag off the pin and add a **Set T
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Play</kbd> button and you see that it gives you the amount of time that past since last tick in milliseconds (ms).  We will need to add them together to get cumulative time.
+
+RERECORD VIDEO - IT IS BLACK
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+We will be counting down and need a variable to hold this time.  Create a new **float** variable called `Game Time`.
+
+![create Game Time variable](images/createGameVar.png)
 
 ![](../images/line2.png)
 
