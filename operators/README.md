@@ -58,7 +58,7 @@ RERECORD VIDEO - IT IS BLACK
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-We will be counting down and need a variable to hold this time.  Create a new **float** variable called `Game Time`.
+We will be counting down and need a variable to hold this time.  Create a new **float** variable called `GameTime`.
 
 ![create Game Time variable](images/createGameVar.png)
 
@@ -66,7 +66,7 @@ We will be counting down and need a variable to hold this time.  Create a new **
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/subtractFromGametime.png)
 
 ![](../images/line2.png)
 
