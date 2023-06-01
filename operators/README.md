@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Lets create a countdown timer and see how we use operators which is a bit different in Blueprints compared to doing it in C++.
 
 <br>
 
@@ -14,7 +14,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Select the **Blueprints** folder and right-click in the open folder and select an **Blueprint Class** and select **Actor**.  Call the new blueprint `BP_Countdown`.
+
+![create BP_Countdown](images/countdownBP.png)
 
 ![](../images/line2.png)
 
