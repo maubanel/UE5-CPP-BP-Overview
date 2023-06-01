@@ -22,7 +22,9 @@ Select the **Blueprints** folder and right-click in the open folder and select a
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/countdownTimerComponent.png)
+Open up **BP_Countdown** and add a **Text Render** component.  Chnage the name to `CountdownTimer`.  Copy and paste the **Text Render Color** so it is the same as the others. Change the **Horizontal Alignment** and **Vertical Alignment** to `Center` and `TextCenter`. Change the **Text** to `Countdown Timer` and the **World Size** to `72`.
+
+![add CountdownTimer component and format text](images/countdownTimerComponent.png)
 
 ![](../images/line2.png)
 
