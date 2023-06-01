@@ -22,7 +22,7 @@ Select the **Blueprints** folder and right-click in the open folder and select a
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/countdownTimerComponent..png)
+![alt_text](images/countdownTimerComponent.png)
 
 ![](../images/line2.png)
 
