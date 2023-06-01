@@ -42,8 +42,9 @@ The tick event is called repeatedly, typically 30 or 60 times per second, depend
 
 By utilizing the tick event, game developers can create dynamic and responsive behaviors for objects in Unreal Engine, making the game world come alive with movement and interactivity.
 
+Drag the **Countdown Timer** to the graph and drag off the pin and add a **Set Text** node.  Now we will take the **Delta Seconds** pin and send it to the **Set Text | Value** pin.
 
-![alt_text](images/deltaSecondsEventTick.png)
+![set text with delta time](images/deltaSecondsEventTick.png)
 
 ![](../images/line2.png)
 
