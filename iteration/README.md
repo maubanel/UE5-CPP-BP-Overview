@@ -100,6 +100,8 @@ Lets add a stat to a game object and use a switch statement to change messages. 
 
 Press the <kbd>Play</kbd> button.
 
+https://github.com/maubanel/UE5-BP-Overview/assets/5504953/d96c3b09-d3ea-415b-866c-8bf431b0d2e6
+
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Iteratoin Continued"> -->
