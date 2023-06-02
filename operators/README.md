@@ -137,23 +137,25 @@ Select all of your nodes then press the <kbd>C</kbd> key.  Add `Countdown Timer`
 
 ##### `Step 14.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
-
 Now the one bug we have is that the timer doesn't stop when it gets to `0`.  It goes to negative numbers.  Lets fix that.
 
 ![alt_text](images/countdownNegative.png)
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
 There are no **if** statements in blueprints.  Instead we have a **Branch** node.  This replaces, if, elseif and else nodes and can all be done with the **Branch** node. Add a **Branch** node and we will check if the value is less than 0.
 
-![select branch node](images/ConditionIf.png)
+
+![alt_text](images/ConditionIf.png)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+
+![select branch node](images/.png)
 
 ![](../images/line2.png)
 
