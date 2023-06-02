@@ -30,23 +30,31 @@ Press the <kbd>Play</kbd> button and you will see that the message is visible th
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/setHidden.png)
+Drag a **ResetCounter** reference to the graph.  Also right click on the empty graph and add a **Event Begin Play** node. Drag off of the **ResetCounter** pin and select **Set Hidden in Game** node.
+
+![being playe hiddent in game](images/setHidden.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/newHiddenTrue.png)
+Connect the execution pin from **Begin Play** to **Set Hidden in Game** then make sure **New Hidden** is set to `true`.  This ensures the object does not render in game.
+
+![set reset counter hidden in game](images/newHiddenTrue.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/Unhide.png)
+Now that we turned it off, we want to turn it on when **Game Time** is les than `0`.  So intercept the execution pin coming out of **Set GameTime** to `0` and add a reference to **ResetCounter** and and pull off the pin to add another **Set Hidden in Game** node, but this time set the **New Hidden** to `false` showing the text.
+
+![turn instruction text on when 0](images/Unhide.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
+
+Press the <kbd>Play</kbd> button and when the timer gets to `0` the message appears.
 
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/64cacc97-f10d-46a7-8995-2a20efed8daf
 
@@ -54,25 +62,26 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/64cacc97-f10d-46a7-89
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+![alt_text](images/addREvent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/whenResetVisible.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/branchComment.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Play</kbd> button and 
 
 ![](../images/line2.png)
 
