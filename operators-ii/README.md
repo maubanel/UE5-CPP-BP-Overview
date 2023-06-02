@@ -83,6 +83,8 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/64cacc97-f10d-46a7-89
 
 Press the <kbd>Play</kbd> button and 
 
+https://github.com/maubanel/UE5-BP-Overview/assets/5504953/b50ff055-f77e-4229-8e4d-d543cd2df8cd
+
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
