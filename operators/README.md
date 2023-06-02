@@ -139,7 +139,7 @@ Select all of your nodes then press the <kbd>C</kbd> key.  Add `Countdown Timer`
 
 Now the one bug we have is that the timer doesn't stop when it gets to `0`.  It goes to negative numbers.  Lets fix that.
 
-![alt_text](images/countdownNegative.png)
+![timer goes below 0](images/countdownNegative.png)
 
 ![](../images/line2.png)
 
@@ -148,20 +148,21 @@ Now the one bug we have is that the timer doesn't stop when it gets to `0`.  It 
 There are no **if** statements in blueprints.  Instead we have a **Branch** node.  This replaces, if, elseif and else nodes and can all be done with the **Branch** node. Add a **Branch** node and we will check if the value is less than 0.
 
 
-![alt_text](images/ConditionIf.png)
+![add branch node](images/ConditionIf.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Add a **Less Than (<)** node and plug the output to the **Branch** input.  Take the output of the **Subtraction** node and plug it into the top of the **<** node.
 
-![select branch node](images/.png)
+![add less than node](images/conditionPin.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/conditionPin.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
