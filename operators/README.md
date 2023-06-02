@@ -98,7 +98,9 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/9f56cc44-ab09-4dc3-a1
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Open up the 
+
+![alt_text](images/noFracFormat.png)
 
 ![](../images/line2.png)
 
