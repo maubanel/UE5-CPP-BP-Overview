@@ -14,15 +14,17 @@ Now that we have the countdown working, lets add the ability to reset it back to
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
+Open up **BP_Countdown** and press the **+ Add** button to add another **TextRender** component.  Rename it to `Reset Counter`. Make it a different **Text Render Color** and **World Size** of `26`.  Change the **Horizontal Alignment** and **Vertical Alignment** to `Center` and `Text Center`.  Change the **Text** to `Press R to Restart Countdown`.
 
-
-![alt_text](images/addResetNode.png)
+![add reset counter textrender component](images/addResetNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+
+
+![alt_text](images/alwaysReset.png)
 
 ![](../images/line2.png)
 
