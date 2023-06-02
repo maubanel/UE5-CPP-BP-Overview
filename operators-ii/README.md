@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Now that we have the countdown working, lets add the ability to reset it back to `10` when you press the <kbd>R</kbd> key.
 
 <br>
 
@@ -14,7 +14,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/addResetNode.png)
 
 ![](../images/line2.png)
 
