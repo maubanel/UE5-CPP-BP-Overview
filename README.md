@@ -18,7 +18,7 @@ This is a very quick overview of the foundation of the visual Blueprint scriptin
 <kbd></kbd> &nbsp;&nbsp; [Blueprint Operators](operators/README.md#user-content-blueprint-operators) <br>
 <kbd></kbd> &nbsp;&nbsp; [Blueprint Operators II](operators-ii/README.md#user-content-blueprint-operators-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Blueprint Iteration](iteration/README.md#user-content-blueprint-iteration) <br>
-
+<kbd></kbd> &nbsp;&nbsp; [Blueprint Iteration II](iteration-ii/README.md#user-content-blueprint-iteration-ii) <br>
 
 <!-- LICENSE -->
 ## License
