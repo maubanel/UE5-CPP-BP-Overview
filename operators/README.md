@@ -162,14 +162,17 @@ Add a **Less Than (<)** node and plug the output to the **Branch** input.  Take 
 
 ##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move the nodes below and connect the 
+Move the nodes below and connect the **Branch | False** pin to the **Set GameTime** node. This is when the the value is NOT less than 0 we will print the value as is.
+
 ![alt_text](images/setGameFalse.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Sn now if it is less than 0, then we add a **Set GameTime** node and leave it at `0` and connect it to the **Branch | True** pin.  THen send from **Set GameTime** to the **Set Text** node
+
+![add set GameTime to 0 on true branch](images/setTimeToZero.png)
 
 ![](../images/line2.png)
 
