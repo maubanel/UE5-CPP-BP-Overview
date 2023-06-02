@@ -86,7 +86,9 @@ Then add a **Branch** node and when `true` add a **Set GameTime** variable nad r
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-![alt_text](images/absorbInput.jpg)
+Go to the top component in the blueprint and make sure the blueprint can receive input by setting **Input | Auto Receive Input** to `Player 0`.
+
+![set auto receive input to Player0](images/absorbInput.jpg)
 
 ![](../images/line2.png)
 
