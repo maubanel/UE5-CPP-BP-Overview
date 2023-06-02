@@ -82,7 +82,7 @@ Drag a **Get GameTime** variable onto the graph.  Add a **Subtraction** node.  P
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now drag a **Set GameTime** variable to the graph.  Send the output of the **Subtraction** node to the **Set GameTime** data pin.  Send the output of **Game Time** node to **Set Text**.  Connect the execution pin from **Event Tick** to **Set GameTime** to **Set Text**.
+Now drag a **Set GameTime** variable to the graph.  Send the output of the **Subtraction** node to the **Set GameTime** data pin.  Send the output of **Game Time** node to **Set Text**.  Connect the execution pin from **Event Tick** to **Set GameTime** to **Set Text**. Set the default value for **GameTime** to `10` as we will countdown from 10 seconds.
 
 ![set game time](images/setGameTime.png)
 
@@ -90,7 +90,7 @@ Now drag a **Set GameTime** variable to the graph.  Send the output of the **Sub
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Play</kbd> button and the time countdowns.
 
 ![](../images/line2.png)
 
