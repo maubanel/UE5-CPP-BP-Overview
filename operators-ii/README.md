@@ -86,19 +86,25 @@ Then add a **Branch** node and when `true` add a **Set GameTime** variable nad r
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
+![alt_text](images/absorbInput.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
+
 Press the <kbd>Play</kbd> button and when you cannot reset the timer until it gets to `0`.  That is working.  But once you do reset the time, the reset timer text is still showing.
 
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/b50ff055-f77e-4229-8e4d-d543cd2df8cd
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 ![alt_text](images/setHiddenAfterReset.png)
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Press the <kbd>Play</kbd> button and 
 
