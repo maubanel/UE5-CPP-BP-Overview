@@ -170,7 +170,7 @@ Move the nodes below and connect the **Branch | False** pin to the **Set GameTim
 
 ##### `Step 18.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Sn now if it is less than 0, then we add a **Set GameTime** node and leave it at `0` and connect it to the **Branch | True** pin.  THen send from **Set GameTime** to the **Set Text** node to have a separate setter for the **True** and **False** paths.  Add another **Format Text** node to the **True** branch.
+Sn now if it is less than 0, then we add a **Set GameTime** node and leave it at `0` and connect it to the **Branch | True** pin.  Then send from **Set GameTime** to the **Set Text** node to have a separate setter for the **True** and **False** paths.  
 
 ![add set GameTime to 0 on true branch](images/setTimeToZero.png)
 
@@ -178,13 +178,15 @@ Sn now if it is less than 0, then we add a **Set GameTime** node and leave it at
 
 ##### `Step 19.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Duplicate the **Set Text** node.
+Duplicate the **Set Text** node. Add another **Format Text** node to the **True** branch. Connect seperate execution pins for the true and false path.
 
-![alt_text](images/DupeSetText.png)
+![dupe set text at format text](images/DupeSetText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond:
+
+It is messy when lines go through nodes.  You can double click on the line and add a pin that you can move around and clean the lines up.  I removed the execution pins from overlapping the nodes.
 
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/e28b283e-4fe1-4533-b5c2-c474e5eb9a89
 
