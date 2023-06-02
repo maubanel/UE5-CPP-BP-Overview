@@ -2,7 +2,7 @@
 
 ### Blueprint Operators
 
-<sub>[previous](../text/README.md#user-content-names-strings-text) • [home](../README.md#user-content-ue5-bp-overview) • [next](../)</sub>
+<sub>[previous](../text/README.md#user-content-names-strings-text) • [home](../README.md#user-content-ue5-bp-overview) • [next](../operators-ii/README.md#user-content-blueprint-operators-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -170,7 +170,7 @@ Move the nodes below and connect the **Branch | False** pin to the **Set GameTim
 
 ##### `Step 18.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Sn now if it is less than 0, then we add a **Set GameTime** node and leave it at `0` and connect it to the **Branch | True** pin.  Then send from **Set GameTime** to the **Set Text** node to have a separate setter for the **True** and **False** paths.  
+So now if it is less than 0, then we add a **Set GameTime** node and leave it at `0` and connect it to the **Branch | True** pin.  Then send from **Set GameTime** to the **Set Text** node to have a separate setter for the **True** and **False** paths.  
 
 ![add set GameTime to 0 on true branch](images/setTimeToZero.png)
 
@@ -194,17 +194,19 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/e28b283e-4fe1-4533-b5
 
 ##### `Step 21.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+Press the <kbd>Play</kbd> button and when it gets to `0` we lose the title.  So go back to the blueprint and copy the **Format Text** node so that you have both with the title and the {A} pin. Press the <kbd>Play</kbd> button again, and now when it gets to 0 it should stop!
+
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/2380a66e-4410-4720-9c23-1555c0690b59
 
 ![alt_text](images/.png)
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Blueprint Operators Continued"> -->
 
 ![next up - ](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../text/README.md#user-content-names-strings-text)| [home](../README.md#user-content-ue5-bp-overview) | [next](../)|
+| [previous](../text/README.md#user-content-names-strings-text)| [home](../README.md#user-content-ue5-bp-overview) | [next](../operators-ii/README.md#user-content-blueprint-operators-ii)|
 |---|---|---|

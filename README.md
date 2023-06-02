@@ -16,7 +16,7 @@ This is a very quick overview of the foundation of the visual Blueprint scriptin
 <kbd></kbd> &nbsp;&nbsp; [Fractional Numbers](fractions/README.md#user-content-fractional-numbers) <br>
 <kbd></kbd> &nbsp;&nbsp; [Names Strings Text](text/README.md#user-content-names-strings-text) <br>
 <kbd></kbd> &nbsp;&nbsp; [Blueprint Operators](operators/README.md#user-content-blueprint-operators) <br>
-
+<kbd></kbd> &nbsp;&nbsp; [Blueprint Operators II](operators-ii/README.md#user-content-blueprint-operators-ii) <br>
 
 
 <!-- LICENSE -->
