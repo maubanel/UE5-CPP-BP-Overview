@@ -162,7 +162,8 @@ Add a **Less Than (<)** node and plug the output to the **Branch** input.  Take 
 
 ##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Move the nodes below and connect the 
+![alt_text](images/setGameFalse.png)
 
 ![](../images/line2.png)
 
