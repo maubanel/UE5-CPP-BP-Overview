@@ -74,7 +74,9 @@ Drag a **Get GameTime** variable onto the graph.  Add a **Subtraction** node.  P
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/setGameTime.png)
+Now drag a **Set GameTime** variable to the graph.  Send the output of the **Subtraction** node to the **Set GameTime** data pin.  Send the output of **Game Time** node to **Set Text**.  Connect the execution pin from **Event Tick** to **Set GameTime** to **Set Text**.
+
+![set game time](images/setGameTime.png)
 
 ![](../images/line2.png)
 
