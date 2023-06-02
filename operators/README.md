@@ -178,7 +178,8 @@ Sn now if it is less than 0, then we add a **Set GameTime** node and leave it at
 
 ##### `Step 19.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Duplicate the **Set Text** node.
+![alt_text](images/DupeSetText.png)
 
 ![](../images/line2.png)
 
