@@ -62,12 +62,15 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/64cacc97-f10d-46a7-89
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we need to reset the timer when `R` is pressed. Add a **Keyboard R** event.
 
-![alt_text](images/addREvent.png)
+![add keyboard r event](images/addREvent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now we do not want to do anything unless the reset counter is visible.  So drag a reset counter reference to the graph and pull of the pin and add a **Is Visible** node which will return `tru` if it is visible in the game.
 
 ![alt_text](images/whenResetVisible.png)
 
@@ -75,7 +78,9 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/64cacc97-f10d-46a7-89
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/branchComment.png)
+Then add a **Branch** node and when `true` add a **Set GameTime** variable nad reset it to `10`.
+
+![reset game time to 10](images/branchComment.png)
 
 ![](../images/line2.png)
 
@@ -101,7 +106,7 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/590b5d73-aeab-4f82-96
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Iteration"> -->
 
 ![next up - ](images/banner.png)
 
