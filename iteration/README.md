@@ -20,85 +20,85 @@ Lets add a stat to a game object and use a switch statement to change messages. 
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/addComponents.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addStateVar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/switchOnInt.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addDescriptionText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/setSwitch0.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](imagessequenceNode1/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addStateDescriptionText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/runSwitch0.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/AddMoreSwitchCases.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/state200.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/instanceEditable.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/randomeChange.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/resetTextInLoop.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Press the <kbd>Play</kbd> button.
 
 ![](../images/line2.png)
 
