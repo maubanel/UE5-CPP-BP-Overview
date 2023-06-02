@@ -50,7 +50,9 @@ Drag the **Countdown Timer** to the graph and drag off the pin and add a **Set T
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![set](images/putInFolder.png)
+Drag a copy of **BP_Countdown** into the scene.  In the **Outliner** create a folder called `Blueprint Types` and move all the blueprints into the folder to clean up the outliner.
+
+![add BP_Countdown to scene](images/putInFolder.png)
 
 
 ![](../images/line2.png)
