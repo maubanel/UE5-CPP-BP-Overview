@@ -1,12 +1,12 @@
 ![](../images/line3.png)
 
-### Blueprint Iteration
+### Blueprint Iteration II
 
-<sub>[previous](../operators-ii/README.md#user-content-blueprint-operators-ii) • [home](../README.md#user-content-ue5-bp-overview) • [next](../iteration-ii/README.md#user-content-blueprint-iteration-ii)</sub>
+<sub>[previous](../iteration/README.md#user-content-blueprint-iteration) • [home](../README.md#user-content-ue5-bp-overview) • [next](../)</sub>
 
 ![](../images/line3.png)
 
-Lets add a stat to a game object and use a switch statement to change messages. Now iterating loops in Blueprints can be a bit unwieldly.  This is one area where I think **C++** is a bit easier to read and elegant than the amount of pins often needed in an iteration in a blueprint.
+Chapter introduction here.
 
 <br>
 
@@ -14,101 +14,135 @@ Lets add a stat to a game object and use a switch statement to change messages. 
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-![alt_text](images/bpState.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/addComponents.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addStateVar.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/switchOnInt.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/addDescriptionText.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/setSwitch0.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](imagessequenceNode1/.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addStateDescriptionText.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/runSwitch0.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-![alt_text](images/AddMoreSwitchCases.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/state200.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/instanceEditable.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/randomeChange.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/resetTextInLoop.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-Press the <kbd>Play</kbd> button.
+![alt_text](images/.png)
 
-https://github.com/maubanel/UE5-BP-Overview/assets/5504953/d96c3b09-d3ea-415b-866c-8bf431b0d2e6
+![](../images/line2.png)
+
+##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Iteration Continued"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
 
 ![next up - ](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../operators-ii/README.md#user-content-blueprint-operators-ii)| [home](../README.md#user-content-ue5-bp-overview) | [next](../iteration-ii/README.md#user-content-blueprint-iteration-ii)|
+| [previous](../iteration/README.md#user-content-blueprint-iteration)| [home](../README.md#user-content-ue5-bp-overview) | [next](../)|
 |---|---|---|
