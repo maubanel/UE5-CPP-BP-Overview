@@ -123,7 +123,7 @@ This adds an **A** pin which you will connect to **To Text**.  THen take the **F
 
 Press the <kbd>Play</kbd> button and now we have a title and the seconds are just whole numbers and no fractions.
 
-RECORD NEW VIDEO
+https://github.com/maubanel/UE5-BP-Overview/assets/5504953/60a8b8f4-a333-44c3-ab0a-d5ba20c7586c
 
 ![](../images/line2.png)
 
