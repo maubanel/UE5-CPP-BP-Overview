@@ -14,13 +14,17 @@ Lets add a stat to a game object and use a switch statement to change messages. 
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-![alt_text](images/bpState.png)
+Select the **Blueprints** folder and right click in the open area and selet **Blueprint Class** and press the <kbd>Actor</kbd> button.  Name this new Blueprint `BP_State`.
+
+![Create BP_State actor blueprint](images/bpState.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/addComponents.png)
+For visual interest add a **Cube** component.  This will simulate an actor with a thought bubble above their head.  Add a **TextRender** component and call it `State Description`.  Change the **Text** to `I am `, the **Horizontal Alignment** and **Vertical Alignment** to `Center` and `TextCenter` and the *Text Render Color** to the same color we have been using.  Finally change the **World Size** to `72`.  Adjust the height of the text so it is above the cube.
+
+![add cube and textrender component to hold the state](images/addComponents.png)
 
 ![](../images/line2.png)
 
