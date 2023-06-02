@@ -54,14 +54,11 @@ Drag a copy of **BP_Countdown** into the scene.  In the **Outliner** create a fo
 
 ![add BP_Countdown to scene](images/putInFolder.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-Press the <kbd>Play</kbd> button and you see that it gives you the amount of time that past since last tick in milliseconds (ms).  We will need to add them together to get cumulative time.
-
-Now we see that we have a consistent framerate of .017 milliseconds (ms).  1s/.017ms = 58 FPS. But this is not counting down.  What we need to do is subtract this amount from our timer which we will do.
+Press the <kbd>Play</kbd> button and you see that it gives you the amount of time that past since last tick in milliseconds (ms).  Now we see that we have a consistent framerate of .017 milliseconds (ms).  1s/.017ms = 58 FPS. But this is not counting down.  What we need to do is subtract this amount from our timer which we will do.
 
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/1adddd01-1e6f-4bad-9ee3-809c5c677a9a
 
