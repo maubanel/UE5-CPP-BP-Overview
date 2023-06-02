@@ -22,27 +22,27 @@ Open up **BP_Countdown** and press the **+ Add** button to add another **TextRen
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
+Press the <kbd>Play</kbd> button and you will see that the message is visible the entire time. We want it to start without this message.
 
-
-![alt_text](images/alwaysReset.png)
+![reset title appears when you hit play](images/alwaysReset.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/setHidden.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/newHiddenTrue.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/Unhide.png)
 
 ![](../images/line2.png)
 
