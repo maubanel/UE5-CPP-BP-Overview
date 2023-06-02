@@ -170,7 +170,7 @@ Move the nodes below and connect the **Branch | False** pin to the **Set GameTim
 
 ##### `Step 18.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Sn now if it is less than 0, then we add a **Set GameTime** node and leave it at `0` and connect it to the **Branch | True** pin.  THen send from **Set GameTime** to the **Set Text** node
+Sn now if it is less than 0, then we add a **Set GameTime** node and leave it at `0` and connect it to the **Branch | True** pin.  THen send from **Set GameTime** to the **Set Text** node to have a separate setter for the **True** and **False** paths.  Add another **Format Text** node to the **True** branch.
 
 ![add set GameTime to 0 on true branch](images/setTimeToZero.png)
 
