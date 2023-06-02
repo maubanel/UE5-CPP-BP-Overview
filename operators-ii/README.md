@@ -78,7 +78,7 @@ Now we do not want to do anything unless the reset counter is visible.  So drag 
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Then add a **Branch** node and when `true` add a **Set GameTime** variable nad reset it to `10`.
+Then add a **Branch** node and when `true` add a **Set GameTime** variable nad reset it to `10`. Select all the nodes going to the **Event R** and press the <kbd>C</kbd> key and add a `Reset Timer` heading to the comment box and give it an appropriate color.
 
 ![reset game time to 10](images/branchComment.png)
 
@@ -102,13 +102,15 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/b50ff055-f77e-4229-8e
 
 ##### `Step 12.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Turn **Reset Counter** text back to **Hidden** after **GameTime** is reset.
+
 ![alt_text](images/setHiddenAfterReset.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Press the <kbd>Play</kbd> button and 
+Press the <kbd>Play</kbd> button and now we have a reseting timer working correctly with all known edge cases addressed.  Congrats!
 
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/590b5d73-aeab-4f82-9640-a0a39e123421
 
