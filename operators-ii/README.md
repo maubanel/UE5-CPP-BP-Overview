@@ -2,7 +2,7 @@
 
 ### Blueprint Operators II
 
-<sub>[previous](../operators/README.md#user-content-blueprint-operators) • [home](../README.md#user-content-ue5-bp-overview) • [next](../)</sub>
+<sub>[previous](../operators/README.md#user-content-blueprint-operators) • [home](../README.md#user-content-ue5-bp-overview) • [next](../iteration/README.md#user-content-blueprint-iteration)</sub>
 
 ![](../images/line3.png)
 
@@ -122,5 +122,5 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/590b5d73-aeab-4f82-96
 
 ![](../images/line.png)
 
-| [previous](../operators/README.md#user-content-blueprint-operators)| [home](../README.md#user-content-ue5-bp-overview) | [next](../)|
+| [previous](../operators/README.md#user-content-blueprint-operators)| [home](../README.md#user-content-ue5-bp-overview) | [next](../iteration/README.md#user-content-blueprint-iteration)|
 |---|---|---|
