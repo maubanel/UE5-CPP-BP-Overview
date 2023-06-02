@@ -106,7 +106,7 @@ Open up the arrow for advanced settings of the **To Text** node.  Set **Maximum 
 
 ##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/addCountdownTimer.png)
 
 ![](../images/line2.png)
 
