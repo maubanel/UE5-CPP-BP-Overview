@@ -52,7 +52,7 @@ Drag the **Countdown Timer** to the graph and drag off the pin and add a **Set T
 
 Press the <kbd>Play</kbd> button and you see that it gives you the amount of time that past since last tick in milliseconds (ms).  We will need to add them together to get cumulative time.
 
-RERECORD VIDEO - IT IS BLACK
+https://github.com/maubanel/UE5-BP-Overview/assets/5504953/1adddd01-1e6f-4bad-9ee3-809c5c677a9a
 
 ![](../images/line2.png)
 
