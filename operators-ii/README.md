@@ -48,7 +48,7 @@ Press the <kbd>Play</kbd> button and you will see that the message is visible th
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+https://github.com/maubanel/UE5-BP-Overview/assets/5504953/64cacc97-f10d-46a7-8995-2a20efed8daf
 
 ![](../images/line2.png)
 
