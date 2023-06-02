@@ -98,9 +98,9 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/9f56cc44-ab09-4dc3-a1
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-Open up the arrow for advanced settings of the **To Text** node.  Set **Maximum Fractional Digits** to `0`.
+Open up the arrow for advanced settings of the **To Text** node.  Set **Maximum Fractional Digits** to `0`. Pull off of the **To Text | Return Value** and select a **Format Text** node.
 
-![alt_text](images/noFracFormat.png)
+![set fraction to 0 and format text](images/noFracFormat.png)
 
 ![](../images/line2.png)
 
