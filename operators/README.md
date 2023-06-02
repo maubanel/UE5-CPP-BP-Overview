@@ -106,19 +106,32 @@ Open up the arrow for advanced settings of the **To Text** node.  Set **Maximum 
 
 ##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/addCountdownTimer.png)
+In the **Format Text** node add
+
+```
+Countdown Timer
+{A}
+```
+
+This adds an **A** pin which you will connect to **To Text**.  THen take the **Format Text | Result** node and send it to the **Set Text | Value** pin.
+
+![add title to text](images/addCountdownTimer.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Press the <kbd>Play</kbd> button and now we have a title and the seconds are just whole numbers and no fractions.
+
+RECORD NEW VIDEO
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Select all of your nodes then press the <kbd>C</kbd> key.  Add `Countdown Timer` to title of comment box.  Pick a unique color.
+
+![add comment to nodes](images/countdownTimeComments.png)
 
 ![](../images/line2.png)
 
@@ -130,19 +143,23 @@ Open up the arrow for advanced settings of the **To Text** node.  Set **Maximum 
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now the one bug we have is that the timer doesn't stop when it gets to `0`.  It goes to negative numbers.  Lets fix that.
+
+![alt_text](images/countdownNegative.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+There are no **if** statements in blueprints.  Instead we have a **Branch** node.  This replaces, if, elseif and else nodes and can all be done with the **Branch** node. Add a **Branch** node and we will check if the value is less than 0.
+
+![select branch node](images/ConditionIf.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/conditionPin.png)
 
 ![](../images/line2.png)
 
