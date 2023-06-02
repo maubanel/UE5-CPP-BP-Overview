@@ -50,13 +50,22 @@ Drag the **Countdown Timer** to the graph and drag off the pin and add a **Set T
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+![set](images/putInFolder.png)
+
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
+
 Press the <kbd>Play</kbd> button and you see that it gives you the amount of time that past since last tick in milliseconds (ms).  We will need to add them together to get cumulative time.
+
+Now we see that we have a consistent framerate of .017 milliseconds (ms).  1s/.017ms = 58 FPS. But this is not counting down.  What we need to do is subtract this amount from our timer which we will do.
 
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/1adddd01-1e6f-4bad-9ee3-809c5c677a9a
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
+##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
 We will be counting down and need a variable to hold this time.  Create a new **float** variable called `GameTime`.
 
@@ -64,7 +73,7 @@ We will be counting down and need a variable to hold this time.  Create a new **
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Drag a **Get GameTime** variable onto the graph.  Add a **Subtraction** node.  Put the **GameTime** output to the top of the **Subtraction** node.  Then take **Event Tick | Delta Seconds** output pin and attach it to the bottom of the subtraction node.
 
@@ -72,17 +81,11 @@ Drag a **Get GameTime** variable onto the graph.  Add a **Subtraction** node.  P
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now drag a **Set GameTime** variable to the graph.  Send the output of the **Subtraction** node to the **Set GameTime** data pin.  Send the output of **Game Time** node to **Set Text**.  Connect the execution pin from **Event Tick** to **Set GameTime** to **Set Text**.
 
 ![set game time](images/setGameTime.png)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
 
 ![](../images/line2.png)
 
