@@ -92,6 +92,8 @@ Now drag a **Set GameTime** variable to the graph.  Send the output of the **Sub
 
 Press the <kbd>Play</kbd> button and the time countdowns.
 
+https://github.com/maubanel/UE5-BP-Overview/assets/5504953/9f56cc44-ab09-4dc3-a158-40f2e7b3bfb6
+
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
