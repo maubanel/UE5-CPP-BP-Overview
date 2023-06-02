@@ -82,7 +82,7 @@ Drag a **Get GameTime** variable onto the graph.  Add a **Subtraction** node.  P
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now drag a **Set GameTime** variable to the graph.  Send the output of the **Subtraction** node to the **Set GameTime** data pin.  Send the output of **Game Time** node to **Set Text**.  Connect the execution pin from **Event Tick** to **Set GameTime** to **Set Text**. Set the default value for **GameTime** to `10` as we will countdown from 10 seconds.
+Now drag a **Set GameTime** variable to the graph.  Send the output of the **Subtraction** node to the **Set GameTime** data pin.  Send the output of **Game Time** node to **Set Text**.  Connect the execution pin from **Event Tick** to **Set GameTime** to **Set Text**. Set the default value for **GameTime** to `10` as we will countdown from 10 seconds. The fraction is causing the text to jitter.
 
 ![set game time](images/setGameTime.png)
 
