@@ -70,7 +70,7 @@ Now we need to reset the timer when `R` is pressed. Add a **Keyboard R** event.
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we do not want to do anything unless the reset counter is visible.  So drag a reset counter reference to the graph and pull of the pin and add a **Is Visible** node which will return `tru` if it is visible in the game.
+Now we do not want to do anything unless the reset counter is visible.  So drag a reset counter reference to the graph and pull of the pin and add a **Is Visible** node which will return `true` if it is visible in the game.
 
 ![alt_text](images/whenResetVisible.png)
 
@@ -86,7 +86,7 @@ Then add a **Branch** node and when `true` add a **Set GameTime** variable nad r
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-![alt_text](images/absorbInput.png)
+![alt_text](images/absorbInput.jpg)
 
 ![](../images/line2.png)
 
