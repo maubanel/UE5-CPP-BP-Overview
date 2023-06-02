@@ -179,6 +179,7 @@ Sn now if it is less than 0, then we add a **Set GameTime** node and leave it at
 ##### `Step 19.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Duplicate the **Set Text** node.
+
 ![alt_text](images/DupeSetText.png)
 
 ![](../images/line2.png)
@@ -186,8 +187,6 @@ Duplicate the **Set Text** node.
 ##### `Step 20.`\|`BPOVR`| :large_blue_diamond: :large_blue_diamond:
 
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/e28b283e-4fe1-4533-b5c2-c474e5eb9a89
-
-![alt_text](images/.png)
 
 ![](../images/line2.png)
 
