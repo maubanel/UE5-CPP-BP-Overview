@@ -66,7 +66,9 @@ We will be counting down and need a variable to hold this time.  Create a new **
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/subtractFromGametime.png)
+Drag a **Get GameTime** variable onto the graph.  Add a **Subtraction** node.  Put the **GameTime** output to the top of the **Subtraction** node.  Then take **Event Tick | Delta Seconds** output pin and attach it to the bottom of the subtraction node.
+
+![subtract delta seconds from gametime](images/subtractFromGametime.png)
 
 ![](../images/line2.png)
 
