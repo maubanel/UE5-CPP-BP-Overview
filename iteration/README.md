@@ -74,25 +74,55 @@ We do nto want to deal with the execution pins coming from the **Switch Statemen
 
 Drag a reference to the **State Description** component to the graph and pull off the pin and select **Set Text**.  Connect the data pins and the execution pin to the **Sequence | Then 1**.  S0 the first sequence pin will run all the conditions for the switch statements that are valid, then the `1` pin will run after that is complete.  This stops us from having to deal with the execution branch after each condition which would be messy.
 
-![alt_text](images/addStateDescriptionText.png)
+![add state description and set the text](images/addStateDescriptionText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/runSwitch0.png)
+Press the <kbd>Play</kbd> button and you will see the first state appear.
+
+![first state when playing](images/runSwitch0.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`BPOVR`| :large_blue_diamond:
 
-![alt_text](images/AddMoreSwitchCases.png)
+Make sure the execution pin is correct before the next step that the **Sequence | Then 0** pin goes to the **Switch on Int** (and not the set text).
+
+Press the **Add Pin** 4 times to add cases 1 through 3.  Then create 4 more **Set Description** nodes.  Add the text:
+
+case 1:
+```
+attacking monstes
+```
+
+case 2:
+```
+catching a few ZZZs
+```
+
+case 3:
+```
+eating a pizza
+```
+
+Default:
+```
+doing nothing!
+```
+
+Connect the execution pins to the correct switch numbers.
+
+![add 4 more state descriptoins](images/AddMoreSwitchCases.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/state200.png)
+Change the **State** default value to `200`.  Press the <kbd>Play</kbd> button you will notice that any integer that is not `0` through `3` will run the **Default** state which is the message `I am doing nothing!`.
+
+![change State to 200](images/state200.png)
 
 ![](../images/line2.png)
 
