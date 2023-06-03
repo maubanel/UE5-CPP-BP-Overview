@@ -136,23 +136,33 @@ Now right now we can only set the state variable inside the blueprint.  So this 
 
 ##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/editInstance.png)
+Now once you press the **Compile** button you can go back to the editor and change the instance in the **Details** panel and if you had multiple instances, could each have their own default value! Check that all your switch statements work properly.
+
+![edit state value in editor](images/editInstance.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/randomeChange.png)
+Now lets update the state automatically.  Go back to **BP_State** and add an **Event Tick** and **Delay** node.  Connect their execution pins and set the delay **Duration** to `2.0` seconds.  This means that the execution pin *after* the delay node will only run 2 seconds after the input execution pin is triggered. Add a **Random Integer in Range** node. 
+
+![add 2 second delay to event](images/randomeChange.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/resetTextInLoop.png)
+![alt_text](images/addSecondSequence.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+![alt_text](images/resetTextInLoop.png)
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press the <kbd>Play</kbd> button.
 
