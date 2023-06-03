@@ -30,35 +30,45 @@ For visual interest add a **Cube** component.  This will simulate an actor with 
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addStateVar.png)
+Create a new **Integer** variable called `State`. Now, I think it is important to mark variables as **Private** (can only be read by this blueprint - not any other including child blueprints).  Only leave it public, when you are certain that you need to access tis variable from outside this blueprint.  It is a good way to protect yourself for unpredictable behavior in the game.
+
+![add state var](images/addStateVar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/switchOnInt.png)
+Drag the **State** variabel to the graph.  Click off the pin and select a **Switch on Int** node.
+
+![add state and switch on int nodes](images/switchOnInt.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BPOVR`| :small_orange_diamond:
 
-![alt_text](images/addDescriptionText.png)
+Connect the execution pin from **Event BeginPlay** to **Switch on Int**. Add a new **Text** variable called `Description` and make sure **Private** is `true`.
+
+![add new Description text variable](images/addDescriptionText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/setSwitch0.png)
+Drag a **Set Description** node and add `having some tea!` to the text box.  Connect the **Switch | 0** execution pin. 
+
+![add first message by setting text](images/setSwitch0.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](imagessequenceNode1/.png)
+![add set state description text](images/sequenceNode1.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Drag a reference to the **State Description** component to the graph and pull off the pin and select **Set Text**.  Connect the data pins and the execution pin to the **Sequence | Then 1**.  S0 the first sequence pin will run all the conditions for the switch statements that are valid, then the `1` pin will run after that is complete.  This stops us from having to deal with the execution branch after each condition which would be messy.
 
 ![alt_text](images/addStateDescriptionText.png)
 
