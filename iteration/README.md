@@ -62,6 +62,10 @@ Drag a **Set Description** node and add `having some tea!` to the text box.  Con
 
 ##### `Step 7.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+We do nto want to deal with the execution pins coming from the **Switch Statement**.  Otherwise to go to one location from say 10 switch conditions, we would have to wire all 10 execution pins to that node.  There is a cleaner way of handling a more complicated graph flow.  Lets add a **Sequence** node to the graph and put it between **Begin Play** and the **Switch on Int** nodes using the **Then 0** pin.
+
+>The Sequence node allows for a single execution pulse to trigger a series of events in order. The node may have any number of outputs, all of which get called as soon as the Sequence node receives an input. They will always get called in order, but without any delay. To a typical user, the outputs will likely appear to have been triggered simultaneously.
+
 ![add set state description text](images/sequenceNode1.png)
 
 ![](../images/line2.png)
