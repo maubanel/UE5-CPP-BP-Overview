@@ -136,17 +136,23 @@ Now right now we can only set the state variable inside the blueprint.  So this 
 
 ##### `Step 13.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/randomeChange.png)
+![alt_text](images/editInstance.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/resetTextInLoop.png)
+![alt_text](images/randomeChange.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
+
+![alt_text](images/resetTextInLoop.png)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Press the <kbd>Play</kbd> button.
 
