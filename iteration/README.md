@@ -94,7 +94,7 @@ Press the **Add Pin** 4 times to add cases 1 through 3.  Then create 4 more **Se
 
 case 1:
 ```
-attacking monstes
+attacking monsters
 ```
 
 case 2:
@@ -128,7 +128,9 @@ Change the **State** default value to `200`.  Press the <kbd>Play</kbd> button y
 
 ##### `Step 12.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/instanceEditable.png)
+Now right now we can only set the state variable inside the blueprint.  So this means every blueprint we drag into the scene will have the exact same state.  What if we wanted each one to have a different state?  There is a way to expose the variable to each instance so we can edit it in the main deitor.  Click on the **State** variable and set **Instance Editable** to `true` (notice an eyeball will turn on next to the variable on the left side of the blueprint).
+
+![make State instance editable](images/instanceEditable.png)
 
 ![](../images/line2.png)
 
