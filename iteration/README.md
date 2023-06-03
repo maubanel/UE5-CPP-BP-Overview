@@ -152,19 +152,23 @@ Now lets update the state automatically.  Go back to **BP_State** and add an **E
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/addSecondSequence.png)
+Set the **Random Integer in Range | Min** to `0` and **Random Range | Max** to `4` (this gives a 1 in 5 chance for any state to be called including default). Connect the output of the random number node to a new **Sequence** node.  Send the **Then 0** pin to the **Switch on Int** to assign the correct state description. 
+
+![connect fandom number to sequence node](images/addSecondSequence.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/resetTextInLoop.png)
+Connect hte **Sequence | Then 1** to the **Set Text** node to update the new text after the switch statement is run.
+
+![set text after random num](images/resetTextInLoop.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Play</kbd> button.
+Press the <kbd>Play</kbd> button and every two seconds the state randomly changes.
 
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/d96c3b09-d3ea-415b-866c-8bf431b0d2e6
 
