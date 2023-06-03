@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Now loops are similar to switch statements and again, can contain lots of execution pins.  Keep your graph clean and organized.
 
 <br>
 
@@ -14,7 +14,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/BPLoopActor.png)
 
 ![](../images/line2.png)
 
