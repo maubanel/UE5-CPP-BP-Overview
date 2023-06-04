@@ -160,13 +160,18 @@ Set the **Random Integer in Range | Min** to `0` and **Random Range | Max** to `
 
 ##### `Step 16.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Connect hte **Sequence | Then 1** to the **Set Text** node to update the new text after the switch statement is run.
+Connect the **Sequence | Then 1** to the **Set Text** node to update the new text after the switch statement is run.
 
 ![set text after random num](images/resetTextInLoop.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Clean up the graph so no lines cross over nodes and add a comment around the nodes attached to the **Event Tick** node chain and name the comment `Randomize States Periodically`.  
+
+![add comment around timer](images/cleanPinsAddComms.png)
+
 
 Press the <kbd>Play</kbd> button and every two seconds the state randomly changes.
 
