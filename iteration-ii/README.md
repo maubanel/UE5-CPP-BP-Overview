@@ -130,9 +130,9 @@ Figure out on your own how to get a **For Loop** to print out the following:
 
 ````0, -10, -20, -30, -40, -50```
 
+Now I believe on a blueprint for loop you can only increment (I don't think you can decrement) and it always increments by `1`.  So it is quite limiting compared to the syntax of a **C++ For Loop** where you can go in any diretion incremented by any amount.
 
-
-![alt_text](images/forLoopOnYourOwn.png)
+![for loop](images/forLoopOnYourOwn.png)
 
 ![](../images/line2.png)
 
