@@ -118,9 +118,9 @@ Press the <kbd>Play</kbd> button and notice that we have an extra comma at the b
 
 ##### `Step 14.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+So we want the first element to not add a comma.  So after the `++` increment integer node we add a **Branch Node**.  Since the **WhileLoop** integer starts at `0` the first number coming out of `++` will be `1`.  Drag a reference to **WhileInt** and add a **>** node and add `1` to the bottom field.  Plug the output of the **>** node to the **Branch** node.  Send the **Branch | True** pin to the **Set WhileString** node.  Now in the **Branch | False** pin send it to another **Set WhileString** node sending it just the **Get WhileInt** variable.
 
-
-![alt_text](images/fixCommaBug.png)
+![fix comma bug](images/fixCommaBug.png)
 
 ![](../images/line2.png)
 
