@@ -134,11 +134,6 @@ Now I believe on a blueprint for loop you can only increment (I don't think you 
 
 ![for loop](images/forLoopOnYourOwn.png)
 
-![](../images/line2.png)
-
-
-![alt_text](images/.png)
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The End!"> -->
