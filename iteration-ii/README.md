@@ -126,7 +126,13 @@ So we want the first element to not add a comma.  So after the `++` increment in
 
 ##### `Step 15.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Figure out on your own how to get a **For Loop** to print out the following:
+
+````0, -10, -20, -30, -40, -50```
+
+
+
+![alt_text](images/forLoopOnYourOwn.png)
 
 ![](../images/line2.png)
 
