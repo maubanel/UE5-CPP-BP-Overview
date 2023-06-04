@@ -172,6 +172,9 @@ Clean up the graph so no lines cross over nodes and add a comment around the nod
 
 ![add comment around timer](images/cleanPinsAddComms.png)
 
+![](../images/line2.png)
+
+##### `Step 18.`\|`BPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press the <kbd>Play</kbd> button and every two seconds the state randomly changes.
 
