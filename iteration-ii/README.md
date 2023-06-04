@@ -118,7 +118,9 @@ Press the <kbd>Play</kbd> button and notice that we have an extra comma at the b
 
 ##### `Step 14.`\|`BPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+
+
+![alt_text](images/fixCommaBug.png)
 
 ![](../images/line2.png)
 
