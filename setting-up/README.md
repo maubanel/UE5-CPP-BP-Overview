@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-It is easiest to manage the various versions of Unreal using the **Epic Launcher**.  Thi allows you to install and run multiple versions of the engine.  Go to [Epic Launcher Download](https://store.epicgames.com/en-US/download) and install the Epic Game Launcher.  From here we will manage our game assets and resources. Intall Unreal 5.2 and use a PC.
+It is easiest to manage the various versions of Unreal using the **Epic Launcher**.  Thi allows you to install and run multiple versions of the engine.  Go to [Epic Launcher Download](https://store.epicgames.com/en-US/download) and install the Epic Game Launcher.  From here we will manage our game assets and resources. Intall Unreal 5.3.X and use a PC.
 
 <br>
 
@@ -14,8 +14,9 @@ It is easiest to manage the various versions of Unreal using the **Epic Launcher
 
 ##### `Step 1.`\|`BPOVR`|:small_blue_diamond:
 
-You will need to have an account with Epic games, but don't worry they are free to register for.  Unreal Engine 4 is freely available for students.
-Once you have installed the launcher run the program and select **Unreal Engine** on the side menu and **Library** on the top menu. Press the **+** button to add a new build (if needed) and select the latest version.  In my case it is `5.2.X`. Make sure it is of version `5.2.x` if you want to ensure that you are compatible with this walk through (the third digit should work as these represent non-breaking changes to the engine and just bug-fixes).
+You will need to have an account with Epic games, but don't worry they are free to register for.  Unreal Engine 5 is freely available for students.
+
+Once you have installed the launcher run the program and select **Unreal Engine** on the side menu and **Library** on the top menu. Press the **+** button to add a new build (if needed) and select the latest version.  In my case it is `5.3.X`. Make sure it is of version `5.3.x` if you want to ensure that you are compatible with this walk through (the third digit should work as these represent non-breaking changes to the engine and just bug-fixes).
 
 Also, before installing select **Options** and only download platforms you need support (PC is built in).  So I saved some space by removing hand held versions of the engine. We also do not need the **Editor symbols for debugging** yet so we can save ~60 gigs here by not including it.  You can add these at any time in the future.
 
@@ -25,7 +26,7 @@ Also, before installing select **Options** and only download platforms you need 
 
 ##### `Step 2.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Now once it installs press the **Launch** button on the **5.2.X** version of Unreal.
+Now once it installs press the **Launch** button on the **5.3.X** version of Unreal.
 
 ![launch Unreal](images/launchGame.png)
 
