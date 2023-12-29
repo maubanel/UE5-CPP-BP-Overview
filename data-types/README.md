@@ -92,7 +92,7 @@ Call the variable `Year`.
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag a **Get IntegerTexzt** to the graph.  Connect the **Year** integer output pin to the **Set Text | Value** node.  It will add a **To Text(Integer)** node to cast the int to a text format. Press the <kbd>Compile</kbd> button.
+Drag a **Get IntegerText** to the graph.  Connect the **Year** integer output pin to the **Set Text | Value** node.  It will add a **To Text(Integer)** node to cast the int to a text format. Press the <kbd>Compile</kbd> button.
 
 ![connect year to set text node](images/connectTextPins.png)
 

@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-The big change in **Unreal Engine 5** is the introduction of **double** precision floats in blueprints.  The documentation states that when a **float** is selected in the blueprint - at compile time it will determine whether it is a single `float` or a `double`.
+The big change in **Unreal Engine 5** is the introduction of **double** precision floats in blueprints.  In blueprints you can only create doubles (64 bit floats). When declaring variables in C++ you can specify either a float or a double potentially saving memory.  It is advisable in the future to declare your variables in C++, even if you decide to do your main logic within the blueprint.
 
 <br>
 
@@ -30,7 +30,7 @@ Open up **BP_Frac** and press the <kbd>Add</kbd> component button add a **TextRe
 
 ##### `Step 3.`\|`BPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Copy and paste the color of the text from **BP_Int** to **BP_Frac** so you have the exact text color (you can <kbd>cntl-c</kbd> (copy) and <kbd>cont-v</kbd> (paste) any literal in a blueprint). Change the **World Size** to `72` and ceter both the **Horizontal Alignment** and **Vertical Alignment**.  Change the **Text** to `Double & Float`.
+Copy and paste the color of the text from **BP_Int** to **BP_Frac** so you have the exact text color (you can <kbd>cntl-c</kbd> (copy) and <kbd>cont-v</kbd> (paste) any literal in a blueprint). Change the **World Size** to `72` and ceter both the **Horizontal Alignment** and **Vertical Alignment**.  Change the **Text** to `Double`.
 
 ![format text and change to Double & Float](images/doubleAndFloat.png)
 
@@ -54,7 +54,7 @@ Connect the **Execution Pin** between **Begin Play** and **Set Text** nodes. The
 
 ##### `Step 6.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Create a new **Float** variable and call it `DoubleVar`.  In **Unreal 5** the float defaults to **double**.  The documentation says it decides at compile time to be a float or a double.  Drag **DoubleVar** onto the graph then put the curson on top of the output pin.  You will see type **double** in the tooltip.  Drag off of **DoubleVar** and select **To Text(Float)**. Press the <kbd>Compile</kbd> button and set the default float.  In this version I can only enter a *float* amount of digits and not the full 17 digits of a double. I assume this will be addressed.
+Create a new **Float** variable and call it `DoubleVar`.  In **Unreal 5** the float defaults to **double**.  If you wanted to use a float, you need to create that variable in C++. Drag the **DoubleVar** onto the graph then put the curson on top of the output pin.  You will see type **double** in the tooltip.  Drag off of **DoubleVar** and select **To Text(Float)**. Press the <kbd>Compile</kbd> button and set the default float.  In this version I can only enter a *float* amount of digits and not the full 17 digits of a double. I assume this will be addressed in the future.
 
 ![add DoubleVar float then change ToText](images/AddFloat.png)
 
@@ -70,7 +70,7 @@ Connect the **To Text | Return Value** to the ***Set Text | Value**.
 
 ##### `Step 8.`\|`BPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the game and add **BP_Frac** to the room and place it on top of the **Int** leaving enough room between the classes.  Rotate the actor to face the camera.
+Go to the game and add **BP_Frac** to the room and place it next to the **Int** leaving enough room between the classes.  Rotate the actor to face the camera.
 
 ![add double float to game](images/addDoubleFloatToLvl.png)
 
@@ -187,8 +187,6 @@ Connect the **To Text | Return Value** and connect it to **Set Text | Value**.  
 Now you will not be able to get the **X** event unless you allow the actor to receive input.  Select the **PB_Frac(Self)** top component and turn **Auto Receive Input** to `Player0`.
 
 ![set auto receive input](images/absorbInput.png)
-
-![](../images/line2.png)
 
 ![](../images/line2.png)
 
