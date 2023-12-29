@@ -44,6 +44,8 @@ By utilizing the tick event, game developers can create dynamic and responsive b
 
 Drag the **Countdown Timer** to the graph and drag off the pin and add a **Set Text** node.  Now we will take the **Delta Seconds** pin and send it to the **Set Text | Value** pin.
 
+The time it takes for the frame to process varies based on what is being calculated.  In a busy level it can vary dramatically.  We cannot assume a framerate so for physics we want to use the **Delta Seconds** pin, which gives us the exact amount of time in `ms` since last frame.
+
 ![set text with delta time](images/deltaSecondsEventTick.png)
 
 ![](../images/line2.png)
@@ -197,8 +199,6 @@ https://github.com/maubanel/UE5-BP-Overview/assets/5504953/e28b283e-4fe1-4533-b5
 Press the <kbd>Play</kbd> button and when it gets to `0` we lose the title.  So go back to the blueprint and copy the **Format Text** node so that you have both with the title and the {A} pin. Press the <kbd>Play</kbd> button again, and now when it gets to 0 it should stop!
 
 https://github.com/maubanel/UE5-BP-Overview/assets/5504953/2380a66e-4410-4720-9c23-1555c0690b59
-
-![alt_text](images/.png)
 
 ![](../images/line.png)
 
