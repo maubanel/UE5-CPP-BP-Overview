@@ -12,12 +12,12 @@ The three data types are **Names**, **Strings** and **Text**.
 
 If you do not know about text types, it might be good to read the history of how we got here in [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/).
 
-They are **FText**, **FName** and **FString**.<br><br>[FName](https://docs.unrealengine.com/en-us/Programming/UnrealArchitecture/StringHandling/FName) are used for names (non-customer facing) of items in the **Content Browser**. When you name a new asset in the Content Browser, change a parameter in a Dynamic Material Instance, or access a bone in a Skeletal Mesh. This format is 8 bytes per character. It is the smallest format and is used to refer to objects in the editor (like the name of a Material variable).  It is also the smallest format and is often used in multiplayer to reduce the size of packets sent, if text needs to be sent between client and server or vice versa. **FName** is case insensitive.
+They are **FText**, **FName** and **FString**.<br><br>[FName](https://docs.unrealengine.com/en-us/Programming/UnrealArchitecture/StringHandling/FName) are used for names (non-customer facing) of items in the **Content Browser**. When you name a new asset in the Content Browser, change a parameter in a Dynamic Material Instance, or access a bone in a Skeletal Mesh. This format is 8 bytes per character. It is the smallest format and is used to refer to objects in the editor (like the name of a Material variable).  It is also the smallest format and is often used in multiplayer to reduce the size of packets sent, if text needs to be sent between client and server or vice versa. **FName** is case insensitive. It has very fast look up using hash tables.
 
 [FString](https://docs.unrealengine.com/en-us/Programming/UnrealArchitecture/StringHandling/FString) is a 
 16 byte format that allows dynamic modification as well as replace, search concatonate etc... It is less performant but is used most often for manipulation.
 
-[FText](https://docs.unrealengine.com/en-us/Programming/UnrealArchitecture/StringHandling/FText) a 40 byte format is for all customer facing text that requires localization (Like the HUD, or buttons in the front end).<br><br>Please note that in **Blueprints** we do not have the built-in **char** ????CEHCK THIS MARC???? type. You can use it in C++ only but will not show up in **Blueprint**.
+[FText](https://docs.unrealengine.com/en-us/Programming/UnrealArchitecture/StringHandling/FText) a 40 byte format is for all customer facing text that requires localization (Like the HUD, or buttons in the front end).<br><br>Please note that in **Blueprints** we do not have the built-in **char** ????CEHCK THIS MARC???? type. You can use it in C++ only but will not show up in **Blueprint**. 
 
 <br>
 
@@ -131,7 +131,6 @@ Test the **String Literal** to print **I am a string**.  Put the text back to:
 
 ![I am a string to game](images/stringWorks.png)
 
-![](../images/line2.png)
 
 ![](../images/line.png)
 
